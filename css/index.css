@@ -5,6 +5,11 @@
     background-color: rgb(255, 255, 255);
     color: #000000;
 }
+
+:root {
+    scroll-behavior: smooth;
+}
+
 #header_bg {
     /*background-image: url(../img/header/header.jpg);*/
     height: 70%;
@@ -52,13 +57,25 @@ h2{
     font-style: normal;
 }
 
+.what-you-get-for-free > .get-free > p{
+    font-size: 14px;
+    font-family: 'Laila', serif;
+    line-height: 1.6;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #1b0914;
+}
+
 p{
     font-size: 18px;
     font-family: 'Laila', serif;
     line-height: 1.5;
+    font-style: normal;
     color: #6c223a;
     letter-spacing: 0;
-    font-weight: 400;
+    font-weight: normal;
+    font-size: 100%;
+    text-transform: none;
 }
 
 h3{
@@ -71,11 +88,3 @@ h3{
     color: #1b0914;
 }
 
-.get-free p{
-    font-size: 14px;
-    font-family: 'Laila', serif;
-    line-height: 1.5;
-    font-weight: 700;
-    letter-spacing: 0;
-    color: #1b0914;
-}

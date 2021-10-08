@@ -1,0 +1,57 @@
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: #fff4e9;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: #b88d61;
+  }
+  
+  .button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+
+  .inv-button {
+    padding: 15px 26px;
+    border: 0.1em solid #b88d61;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0;
+    color: #1b0914;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: transparent;
+    box-shadow: 0 0 0 0 transparent;
+  }
+
+  .inv-button:hover {
+    color: #fff;
+    background-color: #b88d61;
+    box-shadow: 0 0 0 0 transparent;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+
+  .soc-button {
+    padding: 30px 30px;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 4px;
+    color: #fff4e9;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: #b88d61;
+  }
+  
+  .soc-button:hover {
+    color: white;
+    background-color: #9f7347;
+    cursor: pointer;
+    transition: 0.7s;
+  }

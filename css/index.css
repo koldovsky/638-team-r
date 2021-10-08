@@ -1,0 +1,81 @@
+#header { /* Верхний блок */
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+#header_bg {
+    /*background-image: url(../img/header/header.jpg);*/
+    height: 70%;
+}
+
+h1{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: #1b0914;
+    line-height: 1.4375;
+}
+
+header a{
+    font-size: 18px;
+    font-family: 'Laila',serif;
+    color: #1b0914;
+    line-height: normal;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero {
+    font-size: 76px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    line-height: 1.3;
+    font-style: normal;
+}
+
+#header_bg button{
+    font-size: 16.5px;
+    font-family: 'Oswald',sans-serif;
+    /*color: #fff4e9;*/
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.33;
+}
+
+h2{
+    font-size: 48px;
+    font-family: 'Oswald',sans-serif;
+    color: #1b0914;
+    line-height: 1.1;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Laila', serif;
+    line-height: 1.5;
+    color: #6c223a;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Oswald',sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-style: normal;
+    color: #1b0914;
+}
+
+.get-free p{
+    font-size: 14px;
+    font-family: 'Laila', serif;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #1b0914;
+}

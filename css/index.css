@@ -1,28 +1,34 @@
+body {
+    /*min-width: 320;*/
+    max-width: 1920px;
+    margin: auto;
+}
+
 #header { /* Верхний блок */
     background: rgb(255, 255, 255);
-    padding: 10px;
-    height: 10%;
+    height: 100;
     background-color: rgb(255, 255, 255);
     color: #000000;
 }
 
-:root {
-    scroll-behavior: smooth;
+header > .header .link-container{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5px;
 }
 
-#header_bg {
-    /*background-image: url(../img/header/header.jpg);*/
-    height: 70%;
+@media (min-width: 990px) {
+
+    header > .header .link-container{
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
-h1{
-    font-size: 32px;
-    font-family: 'Oswald', sans-serif;
-    color: #1b0914;
-    line-height: 1.4375;
-}
-
-header a{
+header > .header a{
     font-size: 18px;
     font-family: 'Laila',serif;
     color: #1b0914;
@@ -31,21 +37,80 @@ header a{
     font-style: normal;
 }
 
-.hero {
-    font-size: 76px;
+header > .header-bg > #header_bg > button{
+    margin-top: 50px;
+    height: 57.6px;
+    width: 272px;
+}
+
+header > .header-bg img{
+    filter: brightness(0.6);
+}
+
+header > .header-bg{
+    background: no-repeat center/auto 100% url(../img/header/header.jpg);
+}
+/*Header text block*/
+header > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
+    text-align: center;
+    height: 364px;
+    width: 272px;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header > .header-bg > #header_bg > .hero > .hero-inner{
+    height: 364px;
+    width: 272px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -50px;
+    
+}
+
+header > .header-bg > #header_bg > .hero{
+    height: 364px;
+    width: 272px;
+}
+
+header > .header-bg > #header_bg{
+    height: 471.6px;
+    width: 272px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+header > .header-bg{
+    align-items: "center";
+    height: 471.6px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.hero-text {
+    font-size: 42px;
     font-family: 'Oswald', sans-serif;
+    color: #ffffff;
     font-weight: 500;
-    line-height: 1.3;
+    line-height: inherit;
     font-style: normal;
 }
 
-#header_bg button{
-    font-size: 16.5px;
-    font-family: 'Oswald',sans-serif;
-    /*color: #fff4e9;*/
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.33;
+/*Header button block*/
+
+
+
+:root {
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: #1b0914;
+    line-height: 1.4375;
+    text-align: left;
 }
 
 h2{
@@ -87,4 +152,3 @@ h3{
     font-style: normal;
     color: #1b0914;
 }
-

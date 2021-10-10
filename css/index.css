@@ -12,7 +12,7 @@ body {
 }
 
 header > .header .link-container{
-    display: none;
+    display: flex;
     flex-direction: column;
     text-align: center;
     margin-left: 5px;

@@ -37,12 +37,6 @@ header > .header a{
     font-style: normal;
 }
 
-header > .header-bg > #header_bg > button{
-    margin-top: 50px;
-    height: 57.6px;
-    width: 272px;
-}
-
 header > .header-bg img{
     filter: brightness(0.6);
 }
@@ -50,6 +44,7 @@ header > .header-bg img{
 header > .header-bg{
     background: no-repeat center/auto 100% url(../img/header/header.jpg);
 }
+
 /*Header text block*/
 header > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
     text-align: center;
@@ -99,7 +94,32 @@ header > .header-bg{
 
 /*Header button block*/
 
+header > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space > .space-button{
+    
+    height: 57.6px;
+    width: 116.275px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+header > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space{
+    text-align: center;
+    height: 57.6px;
+    width: 136.275px;
+    padding-left: 67.8px;
+    padding-right: 67.8px;
+}
+
+header > .header-bg > #header_bg > .hero-button > .inbutton{
+    height: 57.6px;
+    width: 272px;
+}
+
+header > .header-bg > #header_bg > .hero-button{
+    margin-top: 50px;
+    height: 57.6px;
+    width: 272px;
+}
 
 :root {
     scroll-behavior: smooth;

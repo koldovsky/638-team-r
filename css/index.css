@@ -98,6 +98,7 @@ header > .header-bg{
     line-height: inherit;
     font-style: normal;
 }
+/*Header text end*/
 
 /*Header button block*/
 
@@ -127,6 +128,11 @@ header > .header-bg > #header_bg > .hero-button{
     height: 57.6px;
     width: 272px;
 }
+/*Header button end*/
+
+
+
+
 
 :root {
     scroll-behavior: smooth;

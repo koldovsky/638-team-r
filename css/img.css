@@ -13,11 +13,13 @@
 
  p.p-can-do  {
     color:#fff4e9;
+    margin-top: 20px;
 
 }
 
 h3.h-can-do{
     color:#ffffff;
+    margin: 0 0 0 0;
 }
 
 .what-can-you-do > .wcyd-container > .can-do > .work-container{
@@ -80,6 +82,75 @@ h3.h-can-do{
     padding-bottom: 90px;
     background-color: #fff4e9;
 }
+
+p.wygff-icons {
+    margin-top: 20px;
+    height: 22px;
+    text-align: center;
+}
+
+.wygff > .wygff-container > .wygff-icons > .container > img{
+    height: 70px;
+    width:  70px;
+    align-items: center;
+    
+    
+    
+}
+
+
+.wygff > .wygff-container > .wygff-icons > .container {
+   
+    height: 162px;
+    width: 272px;
+}
+
+.wygff > .wygff-container > .wygff-icons > .get-free{
+    height: 70px;
+    width: 218px;
+    align-items: center;
+    
+}
+
+
+.wygff > .wygff-container > .wygff-icons > .icons-container{
+    height: 112px;
+    width: 218px;
+    padding-left: 27px;
+    padding-right: 27px; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+    background-color: #fdf6f0;
+    
+}
+
+
+.wygff > .wygff-container > .wygff-icons{
+    height: 162px;
+    width: 272px;
+    margin-top: 50px;
+    align-items: center;
+    
+}
+
+.wygff > .wygff-container > .wygff-header{
+    width: 272px;
+    height: 74px;
+}
+
+.wygff > .wygff-container{
+    width: 272px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.wygff {
+    height: 2618.6px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
 
 
 .our-location > img{

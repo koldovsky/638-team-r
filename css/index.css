@@ -214,7 +214,8 @@ p{
     color: #6c223a;
     letter-spacing: 0;
     font-weight: normal;
-    text-transform: none;
+    font-size: 100%;
+    
 }
 
 h3{

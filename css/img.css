@@ -1,5 +1,35 @@
 
+.what-can-you-do > .wcyd-container > .wcyd-header > h2{
+    height: 37.4px;
+    width: 272px;
+    margin: 0 0 0 0;
+}
 
+.what-can-you-do > .wcyd-container > .wcyd-header{
+    height: 37.4px;
+    width: 272px;
+}
+
+.what-can-you-do > .wcyd-container > .can-do {
+    height: 880px;
+    width: 272px;
+    margin-top: 45px;
+}
+
+
+
+
+.what-can-you-do > .wcyd-container {
+    height: 962.4px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.what-can-you-do {
+    height: 962.4px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
 
 
 .our-location > img{

@@ -147,7 +147,8 @@ h1{
 }
 
 h2{
-    font-size: 48px;
+    text-align: center;
+    font-size: 34px;
     font-family: 'Oswald',sans-serif;
     color: #1b0914;
     line-height: 1.1;

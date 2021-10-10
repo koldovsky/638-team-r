@@ -44,10 +44,6 @@ header > .header a{
     font-style: normal;
 }
 
-header > .header-bg img{
-    filter: brightness(0.6);
-}
-
 header > .header-bg{
     background: no-repeat center/auto 100% url(../img/header/header.jpg);
 }
@@ -130,7 +126,52 @@ header > .header-bg > #header_bg > .hero-button{
 }
 /*Header button end*/
 
+/*Concept block*/
 
+.concept > .concept-block > .concept-text > h2 {
+    height: 36,8px;
+    width: 272px;
+    margin: 0 0 0 0;
+}
+
+.concept > .concept-block > .concept-text > p {
+    text-align: center;
+    height: 264px;
+    width: 272px;
+    margin: 25px 0 0 0;
+}
+
+.concept > .concept-block > .concept-text {
+    height: 325,8px;
+    width: 272px;
+}
+
+.concept > .concept-block {
+    height: 425px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.concept {
+    align-items: "center";
+    height: 425px;
+    padding-top: 85px;
+    padding-bottom: 90px;
+}
+/**/
+
+.concept > .concept-block > .concept-button > .concept-button-block {
+    height: 49.2px;
+    width: 126px;
+    padding-left: 73px;
+    padding-right: 73px;
+}
+
+.concept > .concept-block > .concept-button {
+    height: 49.2px;
+    width: 272px;
+    margin-top: 50px;
+}
 
 
 
@@ -147,7 +188,8 @@ h1{
 }
 
 h2{
-    font-size: 48px;
+    text-align: center;
+    font-size: 34px;
     font-family: 'Oswald',sans-serif;
     color: #1b0914;
     line-height: 1.1;
@@ -172,7 +214,6 @@ p{
     color: #6c223a;
     letter-spacing: 0;
     font-weight: normal;
-    font-size: 100%;
     text-transform: none;
 }
 

@@ -1,10 +1,81 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: #1b0914;
+    line-height: 1.4375;
+    text-align: left;
+}
+
+.concept > .concept-block > .concept-text > h2 {
+    height: 36.8px;
+    width: 272px;
+    margin: 0 0 0 0;
+}
+
+.membership > h2{
+    color: #fff4e9;
+}
+
+h2{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Oswald',sans-serif;
+    color: #1b0914;
+    line-height: 1.1;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.concept > .concept-block > .concept-text > p {
+    text-align: center;
+    height: 264px;
+    width: 272px;
+    margin: 25px 0 0 0;
+}
+
+.what-you-get-for-free > .get-free > p{
+    font-size: 14px;
+    font-family: 'Laila', serif;
+    line-height: 1.6;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #1b0914;
+}
+
+.membership > p{
+    color: #fff4e9;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Laila', serif;
+    line-height: 1.5;
+    color: #6c223a;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Oswald',sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-style: normal;
+    color: #1b0914;
+}
+
 body {
     /*min-width: 320;*/
     max-width: 1920px;
     margin: auto;
 }
 
-#header { /* Верхний блок */
+#header {
     background: rgb(255, 255, 255);
     height: 100px;
     background-color: rgb(255, 255, 255);
@@ -128,19 +199,6 @@ header > .header-bg > #header_bg > .hero-button{
 
 /*Concept block*/
 
-.concept > .concept-block > .concept-text > h2 {
-    height: 36.8px;
-    width: 272px;
-    margin: 0 0 0 0;
-}
-
-.concept > .concept-block > .concept-text > p {
-    text-align: center;
-    height: 264px;
-    width: 272px;
-    margin: 25px 0 0 0;
-}
-
 .concept > .concept-block > .concept-text {
     height: 325.8px;
     width: 272px;
@@ -150,7 +208,7 @@ header > .header-bg > #header_bg > .hero-button{
     height: 425px;
     padding-left: 24px;
     padding-right: 24px;
-    align-items: "center";
+    align-items: center;
 }
 
 .concept {
@@ -159,7 +217,8 @@ header > .header-bg > #header_bg > .hero-button{
     padding-top: 85px;
     padding-bottom: 90px;
 }
-/**/
+
+/*Concept block*/
 
 .concept > .concept-block > .concept-button > .concept-button-block {
     height: 49.2px;
@@ -174,69 +233,17 @@ header > .header-bg > #header_bg > .hero-button{
     margin-top: 50px;
 }
 
+/**/
 
 
-:root {
-    scroll-behavior: smooth;
-}
-h1{
-    font-size: 32px;
-    font-family: 'Oswald', sans-serif;
-    color: #1b0914;
-    line-height: 1.4375;
-    text-align: left;
-}
 
-h2{
-    text-align: center;
-    font-size: 34px;
-    font-family: 'Oswald',sans-serif;
-    color: #1b0914;
-    line-height: 1.1;
-    font-weight: 500;
-    font-style: normal;
-}
 
-.what-you-get-for-free > .get-free > p{
-    font-size: 14px;
-    font-family: 'Laila', serif;
-    line-height: 1.6;
-    font-weight: bold;
-    letter-spacing: 0;
-    color: #1b0914;
-}
-
-p{
-    font-size: 18px;
-    font-family: 'Laila', serif;
-    line-height: 1.5;
-    color: #6c223a;
-    letter-spacing: 0;
-    font-weight: normal;
-}
-
-h3{
-    font-size: 30px;
-    font-family: 'Oswald',sans-serif;
-    line-height: 1.5;
-    font-weight: 600;
-    letter-spacing: 0;
-    font-style: normal;
-    color: #1b0914;
-}
 .membership{
-    width: 302px;
-    height:639px;
-    background-image: url("/img/membership/crew.jpg ") ;
-    color: #fff4e9;
+    background-image: url("/img/membership/crew.jpg ");
+    width: 320px;
+    height:609px;
+}
 
-}
-#membership-h2{
-   color: #fff4e9;
-}
-#membership{
-    color: #fff4e9;
-}
 .membership > .button{
     color: #fff4e9;
     border-width: 2px;

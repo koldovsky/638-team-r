@@ -6,7 +6,7 @@ body {
 
 #header { /* Верхний блок */
     background: rgb(255, 255, 255);
-    height: 100;
+    height: 100px;
     background-color: rgb(255, 255, 255);
     color: #000000;
 }
@@ -80,7 +80,7 @@ header > .header-bg > #header_bg{
 }
 
 header > .header-bg{
-    align-items: "center";
+    align-items: center;
     height: 471.6px;
     padding-top: 130px;
     padding-bottom: 130px;
@@ -129,7 +129,7 @@ header > .header-bg > #header_bg > .hero-button{
 /*Concept block*/
 
 .concept > .concept-block > .concept-text > h2 {
-    height: 36,8px;
+    height: 36.8px;
     width: 272px;
     margin: 0 0 0 0;
 }
@@ -142,7 +142,7 @@ header > .header-bg > #header_bg > .hero-button{
 }
 
 .concept > .concept-block > .concept-text {
-    height: 325,8px;
+    height: 325.8px;
     width: 272px;
 }
 
@@ -154,7 +154,7 @@ header > .header-bg > #header_bg > .hero-button{
 }
 
 .concept {
-    align-items: "center";
+    align-items: center;
     height: 425px;
     padding-top: 85px;
     padding-bottom: 90px;
@@ -179,7 +179,6 @@ header > .header-bg > #header_bg > .hero-button{
 :root {
     scroll-behavior: smooth;
 }
-
 h1{
     font-size: 32px;
     font-family: 'Oswald', sans-serif;
@@ -224,4 +223,21 @@ h3{
     letter-spacing: 0;
     font-style: normal;
     color: #1b0914;
+}
+.membership{
+    width: 302px;
+    height:639px;
+    background-image: url("/img/membership/crew.jpg ") ;
+    color: #fff4e9;
+
+}
+#membership-h2{
+   color: #fff4e9;
+}
+#membership{
+    color: #fff4e9;
+}
+.membership > .button{
+    color: #fff4e9;
+    border-width: 2px;
 }

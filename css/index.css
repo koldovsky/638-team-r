@@ -178,22 +178,6 @@ header > .header-bg > #header_bg > .hero-button{
 :root {
     scroll-behavior: smooth;
 }
-.membership{
-
-}
-#membership-button{
-    border:none;
-    text-align: center;
-    display: inline-block;
-    position: relative; 
-    height: 77px;
-    width:208px;
-}
-#membership-text-button{
-    height: 21px;
-    width:128px;
-    text-align:center;
-}
 h1{
     font-size: 32px;
     font-family: 'Oswald', sans-serif;
@@ -241,4 +225,21 @@ h3{
     letter-spacing: 0;
     font-style: normal;
     color: #1b0914;
+}
+.membership{
+    width: 302px;
+    height:639px;
+    background-image: url("/img/membership/crew.jpg ") ;
+    color: #fff4e9;
+
+}
+#membership-h2{
+   color: #fff4e9;
+}
+#membership{
+    color: #fff4e9;
+}
+#membership-button{
+    color: #fff4e9;
+    border-width: 2px;
 }

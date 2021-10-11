@@ -239,7 +239,7 @@ h3{
 #membership{
     color: #fff4e9;
 }
-#membership-button{
+.membership > .button{
     color: #fff4e9;
     border-width: 2px;
 }

@@ -10,12 +10,6 @@ h1{
     text-align: left;
 }
 
-.concept > .concept-block > .concept-text > h2 {
-    height: 36.8px;
-    width: 272px;
-    margin: 0 0 0 0;
-}
-
 .membership > h2{
     color: #fff4e9;
 }
@@ -28,13 +22,6 @@ h2{
     line-height: 1.1;
     font-weight: 500;
     font-style: normal;
-}
-
-.concept > .concept-block > .concept-text > p {
-    text-align: center;
-    height: 264px;
-    width: 272px;
-    margin: 25px 0 0 0;
 }
 
 .what-you-get-for-free > .get-free > p{
@@ -198,6 +185,19 @@ header > .header-bg > #header_bg > .hero-button{
 /*Header button end*/
 
 /*Concept block*/
+
+.concept > .concept-block > .concept-text > h2 {
+    height: 36.8px;
+    width: 272px;
+    margin: 0 0 0 0;
+}
+
+.concept > .concept-block > .concept-text > p {
+    text-align: center;
+    height: 264px;
+    width: 272px;
+    margin: 25px 0 0 0;
+}
 
 .concept > .concept-block > .concept-text {
     height: 325.8px;

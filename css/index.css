@@ -150,6 +150,7 @@ header > .header-bg > #header_bg > .hero-button{
     height: 425px;
     padding-left: 24px;
     padding-right: 24px;
+    align-items: "center";
 }
 
 .concept {
@@ -210,12 +211,9 @@ p{
     font-size: 18px;
     font-family: 'Laila', serif;
     line-height: 1.5;
-    font-style: normal;
     color: #6c223a;
     letter-spacing: 0;
     font-weight: normal;
-    font-size: 100%;
-    
 }
 
 h3{

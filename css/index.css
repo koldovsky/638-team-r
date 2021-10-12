@@ -225,14 +225,80 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 }
 /**/
 
+
+
+
+
+/*!!!What Can You Do block*/
+.wcyd > .wcyd-container > .container .col > .work{
+    background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.webp);
+
+}
+
+.wcyd > .wcyd-container > .container .col > .card{
+    width: 272px;
+    height: 269px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    border: 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.wcyd > .wcyd-container > .container .col{
+    
+    margin-top: 50px;
+    padding: 0 0 0 0;
+}
+.wcyd > .wcyd-container > .container > .row{
+    width: 272px;
+    margin: 0 0 0 0;
+}
+
+.wcyd > .wcyd-container > .container{
+    height: 753px;
+    width: 272px;
+    margin-top: 45px;
+    padding: 0 0 0 0;
+}
+
+.wcyd > .wcyd-container > .wcyd-header{
+    height: 37px;
+    width: 272px;
+}
+
+.wcyd > .wcyd-container{
+    height: 880px;
+    width: 320px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.wcyd {
+    align-items: center;
+    height: 962px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #fff4e9;
+}
+
+/**/
+
+
+
+
+
+
 /*What Can You Do block*/
-.what-can-you-do > .wcyd-container > .wcyd-header > h2{
+.what-can-you-do > .whatcyd-container > .wcyd-header > h2{
     height: 37.4px;
     width: 272px;
     margin: 0 0 0 0;
 }
 
-.what-can-you-do > .wcyd-container > .wcyd-header{
+.what-can-you-do > .whatcyd-container > .wcyd-header{
     height: 37.4px;
     width: 272px;
 }
@@ -247,7 +313,7 @@ h3.h-can-do{
     margin: 0 0 0 0;
 }
 
-.what-can-you-do > .wcyd-container > .can-do > .work-container{
+.what-can-you-do > .whatcyd-container > .can-do > .work-container{
     height: 191px;
     width: 218px;
     padding-right: 27px;
@@ -258,10 +324,9 @@ h3.h-can-do{
     margin-top: 50px;
     text-align: center;
     background-color: rgba(107, 30, 77, 0.56);
-    
 }
 
-.what-can-you-do > .wcyd-container > .can-do > .comunicate-container{
+.what-can-you-do > .whatcyd-container > .can-do > .comunicate-container{
     height: 164px;
     width: 218px;
     padding-right: 27px;
@@ -273,7 +338,7 @@ h3.h-can-do{
     text-align: center ;
 }
 
-.what-can-you-do > .wcyd-container > .can-do > .sd-container{
+.what-can-you-do > .whatcyd-container > .can-do > .sd-container{
     height: 191px;
     width: 218px;
     padding-right: 27px;
@@ -285,13 +350,13 @@ h3.h-can-do{
     text-align: center ;
 }
 
-.what-can-you-do > .wcyd-container > .can-do {
+.what-can-you-do > .whatcyd-container > .can-do {
     height: 880px;
     width: 272px;
     margin-top: 45px;
 }
 
-.what-can-you-do > .wcyd-container {
+.what-can-you-do > .whatcyd-container {
     height: 962.4px;
     padding-left: 24px;
     padding-right: 24px;
@@ -306,6 +371,8 @@ h3.h-can-do{
 /**/
 
 
+
+
 /*What You Can Get for Free block*/
 .wygff > .get-free > p{
     font-size: 14px;
@@ -315,6 +382,10 @@ h3.h-can-do{
     letter-spacing: 0;
     color: #1b0914;
 }
+
+
+
+
 
 /*Membership block*/
 .membership > h2{

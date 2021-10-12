@@ -88,12 +88,12 @@ header > .header a{
     font-style: normal;
 }
 
-header > .header-bg{
+header > .header-bottom {
     background: no-repeat center/auto 100% url(../img/header/header.jpg);
 }
 
 /*Header text block*/
-header > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
+header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
     text-align: center;
     height: 364px;
     width: 272px;
@@ -102,7 +102,7 @@ header > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
     padding-right: 15px;
 }
 
-header > .header-bg > #header_bg > .hero > .hero-inner{
+header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner{
     height: 364px;
     width: 272px;
     margin-left: -15px;
@@ -111,23 +111,28 @@ header > .header-bg > #header_bg > .hero > .hero-inner{
     
 }
 
-header > .header-bg > #header_bg > .hero{
-    height: 364px;
+header > .header-bottom > .header-bg > #header_bg > .hero{
+    height: 360px;
     width: 272px;
 }
 
-header > .header-bg > #header_bg{
-    height: 471.6px;
+header > .header-bottom > .header-bg > #header_bg{
+    height: 467px;
     width: 272px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
-header > .header-bg{
-    align-items: center;
-    height: 471.6px;
+header > .header-bottom > .header-bg{
+    height: 467px;
     padding-top: 130px;
     padding-bottom: 130px;
+}
+
+header > .header-bottom {
+    height: 727px;
+    width: auto;
+    
 }
 
 .hero-text {
@@ -142,30 +147,30 @@ header > .header-bg{
 
 /*Header button block*/
 
-header > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space > .space-button{
+header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space > .space-button{
     
     height: 57.6px;
     width: 116.275px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
-header > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space{
+header > .header-bottom >  .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space{
     text-align: center;
-    height: 57.6px;
-    width: 136.275px;
-    padding-left: 67.8px;
-    padding-right: 67.8px;
+    height: 57px;
+    width: 116.275px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-header > .header-bg > #header_bg > .hero-button > .inbutton{
-    height: 57.6px;
+header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton{
+    height: 57px;
     width: 272px;
 }
 
-header > .header-bg > #header_bg > .hero-button{
+header > .header-bottom > .header-bg > #header_bg > .hero-button{
     margin-top: 50px;
-    height: 57.6px;
+    height: 57px;
     width: 272px;
 }
 /*Header button end*/
@@ -173,32 +178,32 @@ header > .header-bg > #header_bg > .hero-button{
 /*Concept block*/
 
 .concept > .concept-block > .concept-text > h2 {
-    height: 36.8px;
+    height: 37px;
     width: 272px;
     margin: 0 0 0 0;
 }
 
 .concept > .concept-block > .concept-text > p {
     text-align: center;
-    height: 264px;
+    height: 270px;
     width: 272px;
     margin: 25px 0 0 0;
 }
 
 .concept > .concept-block > .concept-text {
-    height: 325.8px;
+    height: 332px;
     width: 272px;
 }
 
 .concept > .concept-block {
-    height: 425px;
+    height: 431px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .concept {
     align-items: center;
-    height: 425px;
+    height: 606px;
     padding-top: 85px;
     padding-bottom: 90px;
 }
@@ -206,16 +211,17 @@ header > .header-bg > #header_bg > .hero-button{
 /*Concept button*/
 
 .concept > .concept-block > .concept-button > .concept-button-block {
-    height: 49.2px;
+    align-items: center;
+    height: 49px;
     width: 126px;
-    padding-left: 73px;
-    padding-right: 73px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .concept > .concept-block > .concept-button {
-    height: 49.2px;
-    width: 272px;
     margin-top: 50px;
+    height: 49px;
+    width: 272px;
 }
 /**/
 

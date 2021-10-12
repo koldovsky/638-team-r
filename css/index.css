@@ -1,7 +1,51 @@
+:root {
+    scroll-behavior: smooth;
+}
+
 body {
     /*min-width: 320;*/
     max-width: 1920px;
     margin: auto;
+}
+
+h1{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: #1b0914;
+    line-height: 1.4375;
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Oswald',sans-serif;
+    color: #1b0914;
+    line-height: 1.1;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Oswald',sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-style: normal;
+    color: #1b0914;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Laila', serif;
+    line-height: 1.5;
+    font-style: normal;
+    color: #6c223a;
+    letter-spacing: 0;
+    font-weight: normal;
+    font-size: 100%;
+    
 }
 
 #header { /* Верхний блок */
@@ -159,6 +203,7 @@ header > .header-bg > #header_bg > .hero-button{
     padding-bottom: 90px;
 }
 /**/
+/*Concept button*/
 
 .concept > .concept-block > .concept-button > .concept-button-block {
     height: 49.2px;
@@ -172,31 +217,15 @@ header > .header-bg > #header_bg > .hero-button{
     width: 272px;
     margin-top: 50px;
 }
+/**/
 
 
 
-:root {
-    scroll-behavior: smooth;
-}
-h1{
-    font-size: 32px;
-    font-family: 'Oswald', sans-serif;
-    color: #1b0914;
-    line-height: 1.4375;
-    text-align: left;
-}
 
-h2{
-    text-align: center;
-    font-size: 34px;
-    font-family: 'Oswald',sans-serif;
-    color: #1b0914;
-    line-height: 1.1;
-    font-weight: 500;
-    font-style: normal;
-}
 
-.what-you-get-for-free > .get-free > p{
+
+/*What You Can Get for Free block*/
+.wygff > .get-free > p{
     font-size: 14px;
     font-family: 'Laila', serif;
     line-height: 1.6;
@@ -205,41 +234,25 @@ h2{
     color: #1b0914;
 }
 
-p{
-    font-size: 18px;
-    font-family: 'Laila', serif;
-    line-height: 1.5;
-    font-style: normal;
-    color: #6c223a;
-    letter-spacing: 0;
-    font-weight: normal;
-    font-size: 100%;
-    
+/*Membership block*/
+.membership > h2{
+   color: #fff4e9;
 }
 
-h3{
-    font-size: 30px;
-    font-family: 'Oswald',sans-serif;
-    line-height: 1.5;
-    font-weight: 600;
-    letter-spacing: 0;
-    font-style: normal;
-    color: #1b0914;
-}
+.membership > p {
+    color: #fff4e9;
+ }
+
 .membership{
-    width: 302px;
-    height:639px;
+    width: 320px;
+    height: 639px;
     background-image: url("/img/membership/crew.jpg ") ;
     color: #fff4e9;
 
 }
-#membership-h2{
-   color: #fff4e9;
-}
-#membership{
-    color: #fff4e9;
-}
+
 .membership > .button{
     color: #fff4e9;
     border-width: 2px;
 }
+/**/

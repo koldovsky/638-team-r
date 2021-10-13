@@ -4,7 +4,6 @@
 
 body {
     /*min-width: 320;*/
-    max-width: 1920px;
     margin: auto;
 }
 
@@ -607,18 +606,16 @@ a.a-rooms{
     flex-basis: auto;
     object-fit: cover;
     display: block; 
-    background-image: url("/img/gallery/gallery-background.png");
+    background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
 .gallery > .gallery-h2 {
   
-    text-align: left;
     width: 53px;
     height: 51px;
     display: block;
     color: #fff!important;
 }
  .img-gallery{
-    text-align: -webkit-match-parent;
     object-fit: cover;
     vertical-align: baseline;
     width: 272px;

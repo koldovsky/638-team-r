@@ -461,6 +461,12 @@ h3.h-can-do{
 }
 /**/
 
+@media (min-width: 319px) {
+    .wygff{
+        background: url(../img/what-you-get-for-free/background.png) 50% 50% / cover no-repeat fixed;
+    }
+}
+
 
 
 /*Membership block*/

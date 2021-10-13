@@ -489,4 +489,32 @@ h3.h-can-do{
     color: #fff4e9;
     border-width: 2px;
 }
-/**/
+.gallery{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+    flex-basis: auto;
+    object-fit: cover;
+    display: block; 
+    background-image: url("/img/gallery/gallery-background.png");
+}
+.gallery > .gallery-h2 {
+  
+    text-align: left;
+    width: 53px;
+    height: 51px;
+    display: block;
+    color: #fff!important;
+}
+ .img-gallery{
+    text-align: -webkit-match-parent;
+    object-fit: cover;
+    vertical-align: baseline;
+    width: 272px;
+    height: 90.66px;}
+
+
+
+
+
+

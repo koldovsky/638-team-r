@@ -484,11 +484,12 @@ h3.h-can-do{
     border-width: 2px;
 }
 .gallery{
-    display: block;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
     flex-basis: auto;
-    width: 320px;
-    height: 1307.91px;
-    background-color: #964b00 ;
+    object-fit: cover;
+    display: block; 
     background-image: url("/img/gallery/gallery-background.png");
 }
 .gallery > .gallery-h2 {
@@ -499,51 +500,13 @@ h3.h-can-do{
     display: block;
     color: #fff!important;
 }
-.barista{
+ .img-gallery{
+    text-align: -webkit-match-parent;
+    object-fit: cover;
     vertical-align: baseline;
     width: 272px;
-    height: 90.66px;
-}
-.waiting-room{
-    vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;
-}
-.Lamps{
-    vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;
-}
-.working{
-    vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;
-}
-.smilling-man{
-    vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;
-}
-.restoraunt-room{
-    vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;
-}
-.cafe{
-    vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;
-}
-.big-restoraunt{
-    vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;
-}
-coffee-cups {
-    vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;
-}
+    height: 90.66px;}
+
 
 
 

@@ -495,7 +495,7 @@ h3.h-can-do{
     flex-basis: auto;
     object-fit: cover;
     display: block; 
-    background-image: url("/img/gallery/gallery-background.png");
+    background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
 .gallery > .gallery-h2 {
   

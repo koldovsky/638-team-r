@@ -27,7 +27,7 @@ h2{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Oswald',sans-serif;
     line-height: 1.5;
     font-weight: 600;
@@ -230,6 +230,19 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 
 
 /*!!!What Can You Do block*/
+
+.wcyd > .wcyd-container > .container .col > .enjoy-sad{
+    background: no-repeat center /100% auto url(../img/what-you-can-do/coffee-break.webp);
+
+}
+
+
+.wcyd > .wcyd-container > .container .col > .communicate{
+    background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.webp);
+
+}
+
+
 .wcyd > .wcyd-container > .container .col > .work{
     background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.webp);
 
@@ -245,12 +258,14 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
     border: 0px;
     background-color: #ffffff;
     text-align: center;
+    border-radius:0;
 }
 
 .wcyd > .wcyd-container > .container .col{
     
     margin-top: 50px;
     padding: 0 0 0 0;
+    
 }
 .wcyd > .wcyd-container > .container > .row{
     width: 272px;
@@ -370,11 +385,11 @@ h3.h-can-do{
 }
 /**/
 
-
-
-
 /*What You Can Get for Free block*/
-.wygff > .get-free > p{
+
+
+
+.wygff > .col > p{
     font-size: 14px;
     font-family: 'Laila', serif;
     line-height: 1.6;
@@ -382,6 +397,96 @@ h3.h-can-do{
     letter-spacing: 0;
     color: #1b0914;
 }
+
+.wygff > .wygff-container > .container .col > .card > .damn-image > .wygffi{
+    width: auto;
+    height: auto;
+    align-items: center;
+   
+
+}
+
+
+.wygff > .wygff-container > .container .col > .card > .damn-image{
+    width: 218px;
+    height: 70px;
+    align-items: center;
+   
+
+}
+
+.wygff > .wygff-container > .container .col > .card > .card-body > p{
+    width: 218px;
+    height: 22px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+    
+}
+
+.wygff > .wygff-container > .container .col > .card > .card-body {
+    width: 218px;
+    height: 22px;
+    padding: 0 0 0 0;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.wygff > .wygff-container > .container .col > .card{
+    width: 272px;
+    height: 154px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 0px;
+    background-color: #fdf6f0;
+    text-align: center;
+    border-radius:0;
+}
+
+.wygff > .wygff-container > .container .col{
+    
+    margin-top: 50px;
+    padding: 0 0 0 0;
+    
+}
+.wygff > .wygff-container > .container > .row{
+    width: 272px;
+    margin: 0 0 0 0;
+}
+
+.wygff > .wygff-container > .container{
+    height: 2498px;
+    width: 272px;
+    margin-top: 45px;
+    padding: 0 0 0 0;
+    
+}
+
+.wygff > .wygff-container > .wygff-header{
+    height: 75px;
+    width: 272px;
+    
+}
+
+.wygff > .wygff-container{
+    height: 2618px;
+    width: 320px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.wygff {
+    align-items: center;
+    height: 2788px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+/**/
+
 
 
 

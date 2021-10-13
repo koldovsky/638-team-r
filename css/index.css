@@ -467,6 +467,117 @@ h3.h-can-do{
     }
 }
 
+/*Our rooms block*/
+p.p-rooms  {
+    color:#1b0914;
+    margin: 0 0 0 0;
+}
+
+span {
+    color:#1b0914;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+h3.h-rooms{
+    color:#1b0914;
+    margin: 0 0 0 0;
+}
+
+a.a-rooms{
+    color:#e04141;
+    margin: 0 0 0 0;
+}
+
+.our-rooms > .rooms-container > .container .col > .card > .damn-image > .rooms{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    
+}
+
+.our-rooms > .rooms-container > .container .col > .card > .damn-image{
+    width: 212px;
+    height: 137px;
+    align-items: center;
+}
+
+.our-rooms > .rooms-container > .container .col > .card > .card-body > h3{
+    width: 212px;
+    height: 55px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: left;
+}
+
+.our-rooms > .rooms-container > .container .col > .card > .card-body > p{
+    width: 212px;
+    height: 190px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.our-rooms > .rooms-container > .container .col > .card > .card-body {
+    width: 212px;
+    height: 22px;
+    padding: 0 0 0 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.our-rooms > .rooms-container > .container .col > .card{
+    width: 272px;
+    height: 523px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius:0;
+}
+
+.our-rooms > .rooms-container > .container .col{
+    margin-top: 30px;
+    padding: 0 0 0 0;
+}
+.our-rooms > .rooms-container > .container > .row{
+    width: 272px;
+    margin: 0 0 0 0;
+}
+
+.our-rooms > .rooms-container > .container{
+    height: 2745px;
+    width: 272px;
+    margin-top: 45px;
+    padding: 0 0 0 0;
+}
+
+.our-rooms > .rooms-container > .wygff-header{
+    height: 37px;
+    width: 272px;
+}
+
+.our-rooms > .rooms-container{
+    height: 2745px;
+    width: 320px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.our-rooms {
+    align-items: center;
+    height: 2915px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #fff4e9;
+}
+/**/
+
 
 
 /*Membership block*/

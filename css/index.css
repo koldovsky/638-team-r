@@ -500,14 +500,12 @@ h3.h-can-do{
 }
 .gallery > .gallery-h2 {
   
-    text-align: left;
     width: 53px;
     height: 51px;
     display: block;
     color: #fff!important;
 }
  .img-gallery{
-    text-align: -webkit-match-parent;
     object-fit: cover;
     vertical-align: baseline;
     width: 272px;

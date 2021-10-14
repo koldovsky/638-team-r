@@ -611,24 +611,23 @@ a.a-rooms{
 .gallery{
     padding-top: 80px;
     padding-bottom: 90px;
-    box-sizing: border-box;
     flex-basis: auto;
     object-fit: cover;
     display: block; 
     background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
 .gallery > .gallery-h2 {
-  
-    width: 53px;
-    height: 51px;
+    word-wrap: break-word;
+    text-align: left;
+    font-size: inherit;
     display: block;
     color: #fff!important;
 }
  .img-gallery{
     object-fit: cover;
     vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;}
+    flex-basis: auto;
+    object-fit: cover;
 
 
 

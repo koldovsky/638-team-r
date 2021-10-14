@@ -607,8 +607,8 @@ a.a-rooms{
  .img-gallery{
     object-fit: cover;
     vertical-align: baseline;
-    width: 272px;
-    height: 90.66px;}
+    flex-basis: auto;
+    object-fit: cover;
 
 
 

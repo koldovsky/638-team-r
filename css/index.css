@@ -90,36 +90,22 @@ header > .header a{
     font-weight: 400;
     font-style: normal;
 }
+/**/
+
 
 header > .header-bottom {
     background: no-repeat center/auto 100% url(../img/header/header.jpg);
 }
-/**/
-
-
 
 /*Header text block*/
 header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
     text-align: center;
-    width: 272px;
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner{
-    width: 272px;
-    margin-left: -15px;
-    margin-right: -15px;
-    margin-top: -50px;
-}
-
-header > .header-bottom > .header-bg > #header_bg > .hero{
-    width: 272px;
-}
-
 header > .header-bottom > .header-bg > #header_bg{
-    width: 272px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -145,32 +131,63 @@ header > .header-bottom {
 /*Header button block*/
 
 header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space > .space-button{
-    
-    height: 57.6px;
-    width: 116.275px;
     padding-left: auto;
     padding-right: auto;
 }
 
 header > .header-bottom >  .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space{
     text-align: center;
-    height: 57px;
-    width: 116.275px;
     margin-left: auto;
     margin-right: auto;
 }
 
-header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton{
-    height: 57px;
-    width: 272px;
-}
-
 header > .header-bottom > .header-bg > #header_bg > .hero-button{
     margin-top: 50px;
-    height: 57px;
-    width: 272px;
 }
 /*Header button end*/
+
+@media (min-width: 770px) {
+    header > .header-bottom > .header-bg > #header_bg{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    
+    header > .header-bottom > .header-bg{
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+}
+
+@media (min-width: 990px) {
+    header > .header-bottom > .header-bg > #header_bg{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .hero-text {
+        font-size: 72px;
+    }
+
+    header > .header-bottom {
+        background: no-repeat center/100% auto url(../img/header/header.jpg);
+    }
+
+    header > .header-bottom > .header-bg > #header_bg{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    header > .header-bottom > .header-bg{
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+}
+
 
 
 
@@ -236,11 +253,9 @@ h3.h-can-do{
     background: no-repeat center /100% auto url(../img/what-you-can-do/coffee-break.webp);
 }
 
-
 .wcyd > .wcyd-container > .container .col > .communicate{
     background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.webp);
 }
-
 
 .wcyd > .wcyd-container > .container .col > .work{
     background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.webp);
@@ -264,6 +279,7 @@ h3.h-can-do{
     padding: 0 0 0 0;
     
 }
+
 .wcyd > .wcyd-container > .container > .row{
     width: 272px;
     margin: 0 0 0 0;
@@ -589,6 +605,9 @@ a.a-rooms{
     color: #fff4e9;
     border-width: 2px;
 }
+
+
+
 .gallery{
     padding-top: 80px;
     padding-bottom: 90px;

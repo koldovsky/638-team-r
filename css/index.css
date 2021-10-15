@@ -633,7 +633,38 @@ a.a-rooms{
     color: #fff4e9;
     border-width: 2px;
 }
+/**/
 
+
+
+/*Partners block*/
+.partners > .partners-block > #partners-carousel > .carousel-inner > .carousel-item{
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.partners > .partners-block > #partners-carousel > .carousel-inner{
+    padding-top: auto;
+    margin-top: 45px;
+}
+
+.partners > .partners-block > #partners-carousel{
+    margin-top: 45px;
+}
+
+.partners > .partners-block{
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.partners{
+    background: no-repeat center/auto 100% url(../img/partners/garden.jfif);    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+
+/**/
 
 
 .gallery{

@@ -37,15 +37,13 @@ h3{
 }
 
 p{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Laila', serif;
     line-height: 1.5;
     font-style: normal;
     color: #6c223a;
     letter-spacing: 0;
     font-weight: normal;
-    font-size: 100%;
-    
 }
 
 
@@ -193,19 +191,13 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 
 /*Concept block*/
 .concept > .concept-block > .concept-text > h2 {
-    height: 37px;
-    width: 272px;
+    text-align: center;
     margin: 0 0 0 0;
 }
 
 .concept > .concept-block > .concept-text > p {
     text-align: center;
-    width: 272px;
     margin: 25px 0 0 0;
-}
-
-.concept > .concept-block > .concept-text {
-    width: 272px;
 }
 
 .concept > .concept-block {
@@ -223,19 +215,55 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 
 .concept > .concept-block > .concept-button > .concept-button-block {
     align-items: center;
-    height: 49px;
-    width: 126px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 .concept > .concept-block > .concept-button {
     margin-top: 50px;
-    height: 49px;
-    width: 272px;
 }
 /**/
 
+@media (min-width: 770px) {
+    .concept > .concept-block {
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .concept {
+        align-items: center;
+        padding-top: 85px;
+        padding-bottom: 95px;
+    }
+}
+
+@media (min-width: 990px) {
+    .concept > .concept-block {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .concept {
+        align-items: center;
+        padding-top: 85px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .concept > .concept-block {
+        max-width: 800px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 
 /*!!!What Can You Do block*/
@@ -628,9 +656,4 @@ a.a-rooms{
     vertical-align: baseline;
     flex-basis: auto;
     object-fit: cover;
-
-
-
-
-
-
+ }

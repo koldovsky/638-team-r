@@ -533,22 +533,16 @@ a.a-rooms{
 }
 
 .our-rooms > .rooms-container > .container .col > .card > .damn-image{
-    width: 212px;
-    height: 137px;
     align-items: center;
 }
 
 .our-rooms > .rooms-container > .container .col > .card > .card-body > h3{
-    width: 212px;
-    height: 55px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     text-align: left;
 }
 
 .our-rooms > .rooms-container > .container .col > .card > .card-body > p{
-    width: 212px;
-    height: 190px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     margin-top: 20px;
@@ -557,16 +551,12 @@ a.a-rooms{
 }
 
 .our-rooms > .rooms-container > .container .col > .card > .card-body {
-    width: 212px;
-    height: 22px;
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: left;
 }
 
 .our-rooms > .rooms-container > .container .col > .card{
-    width: 272px;
-    height: 523px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -582,23 +572,15 @@ a.a-rooms{
     padding: 0 0 0 0;
 }
 .our-rooms > .rooms-container > .container > .row{
-    width: 272px;
     margin: 0 0 0 0;
 }
 
 .our-rooms > .rooms-container > .container{
-    width: 272px;
     margin-top: 45px;
     padding: 0 0 0 0;
 }
 
-.our-rooms > .rooms-container > .wygff-header{
-    height: 37px;
-    width: 272px;
-}
-
 .our-rooms > .rooms-container{
-    width: 320px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -632,6 +614,74 @@ a.a-rooms{
 .membership > .button{
     color: #fff4e9;
     border-width: 2px;
+}
+/**/
+
+
+
+/*Events block*/
+.events > .events-container > .container > .row > .col > .card > .ev-image > .img{
+    width: 100%;
+    height: auto;
+}
+
+.events > .events-container > .container > .row > .col > .card > .ev-image{
+    max-width: 100%;
+    align-items: center;
+}
+
+.events > .events-container > .container > .row > .col > .card .card-body > .d-flex > .button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.events > .events-container > .container > .row > .col > .card .card-body > .d-flex{
+    margin-top: 35px;
+}
+
+
+.events > .events-container > .container > .row > .col > .card .card-body{
+    padding: 0 0 0 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.events > .events-container > .container > .row > .col > .card{
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius:0;
+}
+
+.events > .events-container > .container > .row > .col{
+    margin-top: 30px;
+    padding: 0 0 0 0;
+}
+
+.events > .events-container > .container > .row{
+    margin: 0 0 0 0;
+}
+
+.events > .events-container .container{
+    margin-top: 45px;
+    padding: 0 0 0 0;
+}
+
+.events > .events-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.events{
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #fff4e9;
 }
 /**/
 

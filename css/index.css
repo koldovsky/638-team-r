@@ -615,8 +615,6 @@ a.a-rooms{
     color: #fff4e9;
     border-width: 2px;
 }
-<<<<<<< HEAD
-=======
 /**/
 
 
@@ -717,7 +715,6 @@ a.a-rooms{
 }
 /**/
 
->>>>>>> d053188a35c6fc5195741e60feca5e59b34e94ba
 
 .gallery{
     position: relative;
@@ -738,7 +735,6 @@ a.a-rooms{
     box-sizing: border-box;
     display: flex;
     flex-basis: auto;
-<<<<<<< HEAD
     object-fit: cover;}*/
 
 
@@ -746,7 +742,3 @@ a.a-rooms{
 
 
 
-=======
-    object-fit: cover;
- }
->>>>>>> d053188a35c6fc5195741e60feca5e59b34e94ba

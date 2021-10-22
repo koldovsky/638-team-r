@@ -622,13 +622,14 @@ a.a-rooms{
 
 /*Events block*/
 .events > .events-container > .container > .row > .col > .card > .ev-image > .img{
-    width: 100%;
-    height: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .events > .events-container > .container > .row > .col > .card > .ev-image{
-    max-width: 100%;
     align-items: center;
+    width: 100%;
+    object-fit: cover;
 }
 
 .events > .events-container > .container > .row > .col > .card .card-body > .d-flex > .button{
@@ -690,12 +691,12 @@ a.a-rooms{
 
 /*Partners block*/
 .partners > .partners-block > #partners-carousel > .carousel-inner > .carousel-item{
-    padding-left: 36px;
-    padding-right: 36px;
+    padding-left: auto;
+    padding-right: auto;
 }
 .partners > .partners-block > #partners-carousel > .carousel-inner{
-    padding-top: auto;
-    margin-top: 45px;
+    max-height: fit-content;
+    max-width: 100%;
 }
 
 .partners > .partners-block > #partners-carousel{
@@ -713,29 +714,32 @@ a.a-rooms{
     padding-top: 80px;
     padding-bottom: 90px;
 }
-
-
 /**/
 
 
 .gallery{
+    position: relative;
     padding-top: 80px;
     padding-bottom: 90px;
-    flex-basis: auto;
-    object-fit: cover;
-    display: block; 
     background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
 .gallery > .gallery-h2 {
     word-wrap: break-word;
     text-align: left;
-    font-size: inherit;
     display: block;
     color: #fff!important;
 }
- .img-gallery{
-    object-fit: cover;
-    vertical-align: baseline;
+ /*.img-gallery{
+    font-family: "object-fit:cover";
+    -webkit-box-pack: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
     flex-basis: auto;
-    object-fit: cover;
- }
+    object-fit: cover;}*/
+
+
+
+
+
+

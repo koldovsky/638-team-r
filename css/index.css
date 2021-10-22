@@ -37,15 +37,13 @@ h3{
 }
 
 p{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Laila', serif;
     line-height: 1.5;
     font-style: normal;
     color: #6c223a;
     letter-spacing: 0;
     font-weight: normal;
-    font-size: 100%;
-    
 }
 
 
@@ -90,36 +88,22 @@ header > .header a{
     font-weight: 400;
     font-style: normal;
 }
+/**/
+
 
 header > .header-bottom {
     background: no-repeat center/auto 100% url(../img/header/header.jpg);
 }
-/**/
-
-
 
 /*Header text block*/
 header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
     text-align: center;
-    width: 272px;
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner{
-    width: 272px;
-    margin-left: -15px;
-    margin-right: -15px;
-    margin-top: -50px;
-}
-
-header > .header-bottom > .header-bg > #header_bg > .hero{
-    width: 272px;
-}
-
 header > .header-bottom > .header-bg > #header_bg{
-    width: 272px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -145,50 +129,75 @@ header > .header-bottom {
 /*Header button block*/
 
 header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space > .space-button{
-    
-    height: 57.6px;
-    width: 116.275px;
     padding-left: auto;
     padding-right: auto;
 }
 
 header > .header-bottom >  .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space{
     text-align: center;
-    height: 57px;
-    width: 116.275px;
     margin-left: auto;
     margin-right: auto;
 }
 
-header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton{
-    height: 57px;
-    width: 272px;
-}
-
 header > .header-bottom > .header-bg > #header_bg > .hero-button{
     margin-top: 50px;
-    height: 57px;
-    width: 272px;
 }
 /*Header button end*/
+
+@media (min-width: 770px) {
+    header > .header-bottom > .header-bg > #header_bg{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    
+    header > .header-bottom > .header-bg{
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+}
+
+@media (min-width: 990px) {
+    header > .header-bottom > .header-bg > #header_bg{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .hero-text {
+        font-size: 72px;
+    }
+
+    header > .header-bottom {
+        background: no-repeat center/100% auto url(../img/header/header.jpg);
+    }
+
+    header > .header-bottom > .header-bg > #header_bg{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    header > .header-bottom > .header-bg{
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+}
+
 
 
 
 /*Concept block*/
 .concept > .concept-block > .concept-text > h2 {
-    height: 37px;
-    width: 272px;
+    text-align: center;
     margin: 0 0 0 0;
 }
 
 .concept > .concept-block > .concept-text > p {
     text-align: center;
-    width: 272px;
     margin: 25px 0 0 0;
-}
-
-.concept > .concept-block > .concept-text {
-    width: 272px;
 }
 
 .concept > .concept-block {
@@ -206,19 +215,55 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 
 .concept > .concept-block > .concept-button > .concept-button-block {
     align-items: center;
-    height: 49px;
-    width: 126px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 .concept > .concept-block > .concept-button {
     margin-top: 50px;
-    height: 49px;
-    width: 272px;
 }
 /**/
 
+@media (min-width: 770px) {
+    .concept > .concept-block {
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .concept {
+        align-items: center;
+        padding-top: 85px;
+        padding-bottom: 95px;
+    }
+}
+
+@media (min-width: 990px) {
+    .concept > .concept-block {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .concept {
+        align-items: center;
+        padding-top: 85px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .concept > .concept-block {
+        max-width: 800px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 
 /*!!!What Can You Do block*/
@@ -236,11 +281,9 @@ h3.h-can-do{
     background: no-repeat center /100% auto url(../img/what-you-can-do/coffee-break.webp);
 }
 
-
 .wcyd > .wcyd-container > .container .col > .communicate{
     background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.webp);
 }
-
 
 .wcyd > .wcyd-container > .container .col > .work{
     background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.webp);
@@ -264,6 +307,7 @@ h3.h-can-do{
     padding: 0 0 0 0;
     
 }
+
 .wcyd > .wcyd-container > .container > .row{
     width: 272px;
     margin: 0 0 0 0;
@@ -489,22 +533,16 @@ a.a-rooms{
 }
 
 .our-rooms > .rooms-container > .container .col > .card > .damn-image{
-    width: 212px;
-    height: 137px;
     align-items: center;
 }
 
 .our-rooms > .rooms-container > .container .col > .card > .card-body > h3{
-    width: 212px;
-    height: 55px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     text-align: left;
 }
 
 .our-rooms > .rooms-container > .container .col > .card > .card-body > p{
-    width: 212px;
-    height: 190px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     margin-top: 20px;
@@ -513,16 +551,12 @@ a.a-rooms{
 }
 
 .our-rooms > .rooms-container > .container .col > .card > .card-body {
-    width: 212px;
-    height: 22px;
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: left;
 }
 
 .our-rooms > .rooms-container > .container .col > .card{
-    width: 272px;
-    height: 523px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -538,23 +572,15 @@ a.a-rooms{
     padding: 0 0 0 0;
 }
 .our-rooms > .rooms-container > .container > .row{
-    width: 272px;
     margin: 0 0 0 0;
 }
 
 .our-rooms > .rooms-container > .container{
-    width: 272px;
     margin-top: 45px;
     padding: 0 0 0 0;
 }
 
-.our-rooms > .rooms-container > .wygff-header{
-    height: 37px;
-    width: 272px;
-}
-
 .our-rooms > .rooms-container{
-    width: 320px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -589,6 +615,110 @@ a.a-rooms{
     color: #fff4e9;
     border-width: 2px;
 }
+<<<<<<< HEAD
+=======
+/**/
+
+
+
+/*Events block*/
+.events > .events-container > .container > .row > .col > .card > .ev-image > .img{
+    width: 100%;
+    height: auto;
+}
+
+.events > .events-container > .container > .row > .col > .card > .ev-image{
+    max-width: 100%;
+    align-items: center;
+}
+
+.events > .events-container > .container > .row > .col > .card .card-body > .d-flex > .button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.events > .events-container > .container > .row > .col > .card .card-body > .d-flex{
+    margin-top: 35px;
+}
+
+
+.events > .events-container > .container > .row > .col > .card .card-body{
+    padding: 0 0 0 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.events > .events-container > .container > .row > .col > .card{
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius:0;
+}
+
+.events > .events-container > .container > .row > .col{
+    margin-top: 30px;
+    padding: 0 0 0 0;
+}
+
+.events > .events-container > .container > .row{
+    margin: 0 0 0 0;
+}
+
+.events > .events-container .container{
+    margin-top: 45px;
+    padding: 0 0 0 0;
+}
+
+.events > .events-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.events{
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #fff4e9;
+}
+/**/
+
+
+
+/*Partners block*/
+.partners > .partners-block > #partners-carousel > .carousel-inner > .carousel-item{
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.partners > .partners-block > #partners-carousel > .carousel-inner{
+    padding-top: auto;
+    margin-top: 45px;
+}
+
+.partners > .partners-block > #partners-carousel{
+    margin-top: 45px;
+}
+
+.partners > .partners-block{
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.partners{
+    background: no-repeat center/auto 100% url(../img/partners/garden.jfif);    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+
+/**/
+
+>>>>>>> d053188a35c6fc5195741e60feca5e59b34e94ba
 
 .gallery{
     position: relative;
@@ -609,6 +739,7 @@ a.a-rooms{
     box-sizing: border-box;
     display: flex;
     flex-basis: auto;
+<<<<<<< HEAD
     object-fit: cover;}*/
 
 
@@ -616,3 +747,7 @@ a.a-rooms{
 
 
 
+=======
+    object-fit: cover;
+ }
+>>>>>>> d053188a35c6fc5195741e60feca5e59b34e94ba

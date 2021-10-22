@@ -615,6 +615,8 @@ a.a-rooms{
     color: #fff4e9;
     border-width: 2px;
 }
+<<<<<<< HEAD
+=======
 /**/
 
 
@@ -715,25 +717,36 @@ a.a-rooms{
 }
 /**/
 
+>>>>>>> d053188a35c6fc5195741e60feca5e59b34e94ba
 
 .gallery{
+    position: relative;
     padding-top: 80px;
     padding-bottom: 90px;
-    flex-basis: auto;
-    object-fit: cover;
-    display: block; 
     background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
 .gallery > .gallery-h2 {
     word-wrap: break-word;
     text-align: left;
-    font-size: inherit;
     display: block;
     color: #fff!important;
 }
- .img-gallery{
-    object-fit: cover;
-    vertical-align: baseline;
+ /*.img-gallery{
+    font-family: "object-fit:cover";
+    -webkit-box-pack: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
     flex-basis: auto;
+<<<<<<< HEAD
+    object-fit: cover;}*/
+
+
+
+
+
+
+=======
     object-fit: cover;
  }
+>>>>>>> d053188a35c6fc5195741e60feca5e59b34e94ba

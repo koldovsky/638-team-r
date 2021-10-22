@@ -606,8 +606,6 @@ a.a-rooms{
 }
 
 .membership{
-    width: 320px;
-    height: 639px;
     background-image: url("/img/membership/crew.jpg ") ;
     color: #fff4e9;
 }
@@ -616,6 +614,105 @@ a.a-rooms{
     color: #fff4e9;
     border-width: 2px;
 }
+/**/
+
+
+
+/*Pricing block*/
+.prising .inv-button{
+    color:#fff;
+}
+.pricing .card p{
+    color:#fff4e9;
+}
+.pricing .card h3{
+    color:#fff;
+}
+.pricing .card h2{
+    color:#fff;
+}
+
+.pricing > .pricing-container > .container .col > .card > .pricing-img > img{
+    width: 100%;
+}
+
+.pricing > .pricing-container > .container .col > .card > .pricing-img{
+    margin-top: 15px;
+    width: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pricing > .pricing-container > .container .col > .card > h2{
+    margin-top: 20px;
+}
+
+.pricing > .pricing-container > .container .col > .card > small{
+    margin-top: 2px;
+}
+
+.pricing > .pricing-container > .container .col > .card > p{
+    margin-top: 15px;
+}
+
+.pricing > .pricing-container > .container .col > .card > span{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing > .pricing-container > .container .col > .card > span{
+    width: 100%;
+}
+
+.pricing > .pricing-container > .container .col > .card{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: 0px;
+    background-color: rgb(27, 9, 20);
+    text-align: center;
+    border-radius:0;
+}
+
+.pricing > .pricing-container > .container .col{
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pricing > .pricing-container > .container > .row{
+    margin: 0 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.pricing > .pricing-container > .container{
+    margin-top: 45px;
+    padding: 0 0 0 0;
+}
+
+.pricing > .pricing-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.pricing{
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+}
+
+@media (min-width: 1280px) {
+    .pricing > .pricing-container > .container > .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(500px, auto);
+    }
+}
+
 /**/
 
 

@@ -577,17 +577,20 @@ a.a-rooms{
 .our-rooms > .rooms-container > .container .col{
     margin-top: 30px;
     padding: 0 0 0 0;
-    display: inline-block;
     line-height: 100%;
     padding: 10px;
 }
 .our-rooms > .rooms-container > .container > .row{
     margin: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
 }
 
 .our-rooms > .rooms-container > .container{
     margin-top: 45px;
     padding: 0 0 0 0;
+    
 }
 
 .our-rooms > .rooms-container{

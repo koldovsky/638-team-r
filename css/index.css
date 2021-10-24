@@ -341,9 +341,7 @@ h3.h-can-do{
 }
 /**/
 
-
-
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     .wcyd > .wcyd-container > .container .col > .card > .card-body{
         padding: 0 0 0 0;
     }

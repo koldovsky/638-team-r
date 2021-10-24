@@ -615,9 +615,7 @@ a.a-rooms{
     color: #fff4e9;
     border-width: 2px;
 }
-<<<<<<< HEAD
-=======
-/**/
+
 
 
 
@@ -718,7 +716,6 @@ a.a-rooms{
 
 /**/
 
->>>>>>> d053188a35c6fc5195741e60feca5e59b34e94ba
 
 .gallery{
     position: relative;
@@ -732,6 +729,9 @@ a.a-rooms{
     display: block;
     color: #fff!important;
 }
+.grid {
+    display: grid;
+}
  /*.img-gallery{
     font-family: "object-fit:cover";
     -webkit-box-pack: center;
@@ -739,16 +739,5 @@ a.a-rooms{
     box-sizing: border-box;
     display: flex;
     flex-basis: auto;
-<<<<<<< HEAD
-    
-
-
-
-
-
-
-
-=======
    
  
->>>>>>> d053188a35c6fc5195741e60feca5e59b34e94ba

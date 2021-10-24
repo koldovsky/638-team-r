@@ -843,41 +843,35 @@ a.a-rooms{
 /**/
 
 /**/
-.gallery{   
-    padding-top: 80px;
-    padding-bottom: 90px;
-    background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
-}
-.gallery > .gallery-container{
-    padding-left: 24px;
-    padding-right: 24px;
-}
-.gallery > .gallery-container > .gallery-h2 {
+
+.gallery > h2 {
+    word-wrap: break-word;
     text-align: left;
     display: block;
     color: #fff!important;
 }
-.gallery > .gallery-container >  .grid {
-    max-width: 100%;
+
+.gallery > .gallery-container > .gallery-grid > img{
+    width: 100%;
+    padding-top: 30px;
     align-items: center;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: auto;
-    
-}
-.gallery > .gallery-container > .grid > .img-gallery {   
-    width: auto;
-    height: auto;
 }
 
- /*.img-gallery{
-    font-family: "object-fit:cover";
-    -webkit-box-pack: center;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    display: flex;
-    flex-basis: auto;
-    object-fit: cover;}*/
+.gallery > .gallery-container > .gallery-grid{
+    align-items: center;
+}
+
+.gallery > .gallery-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.gallery{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
+}
+
 
 .footer-link-conteiner a{
     color: rgb(255, 255, 255);

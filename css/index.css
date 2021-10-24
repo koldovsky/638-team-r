@@ -341,9 +341,7 @@ h3.h-can-do{
 }
 /**/
 
-
-
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     .wcyd > .wcyd-container > .container .col > .card > .card-body{
         padding: 0 0 0 0;
     }
@@ -847,21 +845,35 @@ a.a-rooms{
 /**/
 
 /**/
-.gallery{
-    position: relative;
+.gallery{   
     padding-top: 80px;
     padding-bottom: 90px;
+    position: relative;
     background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
-.gallery > .gallery-h2 {
+.gallery > .gallery-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.gallery > .gallery-container > .gallery-h2 {
     word-wrap: break-word;
     text-align: left;
     display: block;
     color: #fff!important;
 }
-.grid {
+.gallery > .gallery-container >  .grid {
+    overflow: hodden;
     display: grid;
+    grid-template-columns: auto;
+    box-sizing: border-box;
+    
 }
+.gallery > .gallery-container > .grid > .grid-item {
+    height:auto;
+    position: relative;
+    vertical-align: top ;
+}
+
  /*.img-gallery{
     font-family: "object-fit:cover";
     -webkit-box-pack: center;

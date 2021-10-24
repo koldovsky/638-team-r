@@ -341,9 +341,7 @@ h3.h-can-do{
 }
 /**/
 
-
-
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     .wcyd > .wcyd-container > .container .col > .card > .card-body{
         padding: 0 0 0 0;
     }
@@ -575,17 +573,20 @@ a.a-rooms{
 .our-rooms > .rooms-container > .container .col{
     margin-top: 30px;
     padding: 0 0 0 0;
-    display: inline-block;
     line-height: 100%;
     padding: 10px;
 }
 .our-rooms > .rooms-container > .container > .row{
     margin: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
 }
 
 .our-rooms > .rooms-container > .container{
     margin-top: 45px;
     padding: 0 0 0 0;
+    
 }
 
 .our-rooms > .rooms-container{
@@ -842,18 +843,33 @@ a.a-rooms{
 /**/
 
 /**/
-.gallery{
-    position: relative;
+.gallery{   
     padding-top: 80px;
     padding-bottom: 90px;
     background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
-.gallery > .gallery-h2 {
-    word-wrap: break-word;
+.gallery > .gallery-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.gallery > .gallery-container > .gallery-h2 {
     text-align: left;
     display: block;
     color: #fff!important;
 }
+.gallery > .gallery-container >  .grid {
+    max-width: 100%;
+    align-items: center;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.gallery > .gallery-container > .grid > .img-gallery {   
+    width: auto;
+    height: auto;
+}
+
  /*.img-gallery{
     font-family: "object-fit:cover";
     -webkit-box-pack: center;
@@ -862,15 +878,6 @@ a.a-rooms{
     display: flex;
     flex-basis: auto;
     object-fit: cover;}*/
-
-
-
-    @media (min-width: 770px) {
-    
-        .footer {
-            
-        }
-    }
 
 .footer-link-conteiner a{
     color: rgb(255, 255, 255);

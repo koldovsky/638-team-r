@@ -555,21 +555,21 @@
             </div>
         </div>     
               
-        <div  class="gallery" id="gallery">
-            <div class="gallery-container">   
-                <h2>Gallery</h2>
-            <div class="grid">
-                <img  src="img/gallery/barista.jpg" alt="Barista">
-                <img  src="img/gallery/waiting-room.jpg" alt="Waiting-room">
-                <img  src="img/gallery/lamps.jpg" alt="Lamps">
-                <img  src="img/gallery/workers.jpg" alt="Working">
-                <img  src="img/gallery/smiling-men.jpg" alt="Smiling-men">
-                <img  src="img/gallery/restoraunt-room.jpg" alt="Restoraunt-room">
-                <img  src="img/gallery/cafe.jpg" alt="Cafe">
-                <img  src="img/gallery/big-restoraunt.jpeg" alt="Big-restoraunt">
-                <img  src="img/gallery/cofee-cups.jpg" alt="Coffee-cups">           
-        </div>
-        </div>
+        <div  class="gallery">
+            <div class="gallery-container">
+                <h2 id="gallery-h2">Gallery</h2>
+                <div class="gallery-grid">
+                    <img src="img/gallery/barista.jpg" alt="Barista">
+                    <img src="img/gallery/waiting-room.jpg" alt="Waiting-room">
+                    <img src="img/gallery/lamps.jpg" alt="Lamps">
+                    <img src="img/gallery/workers.jpg" alt="Working">
+                    <img src="img/gallery/smiling-men.jpg" alt="Smiling-men">
+                    <img src="img/gallery/restoraunt-room.jpg" alt="Restoraunt-room">
+                    <img src="img/gallery/cafe.jpg" alt="Cafe">
+                    <img src="img/gallery/big-restoraunt.jpeg" alt="Big-restoraunt">
+                    <img src="img/gallery/cofee-cups.jpg" alt="Coffee-cups">
+                </div>
+            </div>
         </div>
         
         <div id="Contacts" class="our-location">
@@ -599,24 +599,32 @@
     </main>
     
     <footer> 
-        <h1>FreeSpace</h1>
-        <div class="footer-link-conteiner">
-            <ul>
-                <div><a href="#Concept">Concept</a></div>
-                <div><a href="#What">What you can do</a></div>
-                <div class="foot-marign"><a href="#Rooms">Rooms</a></div>
-                <div><a href="#Pricing">Pricing</a></div>
-                <div><a href="#Pricing">Pricing</a></div>
-                <div class="foot-marign"><a href="#Events">Events</a></div>
-                <div><a href="#Gallery">Gallery</a></div>
-                <div><a href="#Membership">Membership</a></div>
-                <div><a href="#Contacts">Contacts</a></div>
-            </ul>
-        </div>
-        <div>
-            <span>Enter your email and get our latest news.</span><br>
-            <input type="text" placeholder="Email*" required>
-            <button class="button">Subscribe</button>
+        <div class="footer">
+            <h1>FreeSpace</h1>
+             <div class="footer-link-conteiner">
+                <div class="footer-list">
+                    <a href="#Concept">Concept</a>
+                    <a href="#Pricing">Pricing</a>
+                    <a href="#Membership">Membership</a>
+                </div>
+                <div class="footer-list">
+                    <a href="#What">What you can do</a>
+                    <a href="#Events">Events</a>
+                    <a href="#Contacts">Contacts</a>
+                </div>
+                <div class="footer-list">
+                    <a href="#Rooms">Rooms</a>
+                    <a href="#Gallery">Gallery</a>
+                </div>
+                </ul>
+             </div>
+            <div class="footer-email">
+                <span class="footer-span">Enter your email and get our latest news.</span><br>
+                <div class="footer-email-button">
+                <input type="text" placeholder="Email*" required><br>
+                <button class="button">Subscribe</button>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

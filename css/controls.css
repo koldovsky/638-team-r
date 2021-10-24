@@ -1,22 +1,3 @@
-.link-container a{
-    text-decoration: none;
-}
-.link-container > a:hover{
-  color: #b88d61;
-}
-.footer-link-conteiner a{
-  color: rgb(255, 0, 0);
-}
-.footer-link-conteiner > a:hover{
-  color: #b88d61;
-}
-.foot-marign{
-  margin-bottom: 20px;
-}
-
-
-
-
 .button {
     height: 57px;
     width: 115px;

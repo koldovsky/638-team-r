@@ -492,8 +492,6 @@ h3.h-can-do{
 }
 
 @media (min-width: 770px) {
-    
-    
 }
 
 @media (min-width: 990px) {
@@ -876,6 +874,7 @@ a.a-rooms{
 
 
 
+
 .location > .location-container > .loc-parts{
     display: grid;
     grid-template-columns: 1fr;
@@ -924,4 +923,53 @@ a.a-rooms{
         padding-top: 80px;
         padding-bottom: 100px;
     }
+}
+
+
+
+.footer-link-conteiner a{
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    display: table;
+    text-decoration:none;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #1b0914;
+    padding: 20px 24px 30px;
+}
+.footer h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.footer-list {
+    margin-top: 50px;
+    padding: 0px 15px;
+}
+.footer-email {
+    border-top-width: 54;
+    padding: 0px 15px;
+    margin-top: 50px;
+    margin: auto;
+}
+.footer-email span{
+    color: #C2C2C2;
+    text-align: center;
+}
+.footer-email input{
+    padding: 15px 26px;
+    text-align: center;
+    background-color: #ffffff24;
+    border: 0px;
+    width: 100%;
+}
+.footer-email-button {
+    margin-top: 20px;
+}
+.footer-email button{
+    margin: 35px 0 0;
+    width: 100%;
 }

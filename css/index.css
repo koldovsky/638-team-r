@@ -425,30 +425,27 @@ h3.h-can-do{
 }
 
 .wygff > .wygff-container > .container .col > .card > .damn-image{
-    width: 218px;
-    height: 70px;
     align-items: center;
 }
 
 .wygff > .wygff-container > .container .col > .card > .card-body > p{
-    width: 218px;
-    height: 22px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     text-align: center;
+    font-size: 12px;
 }
 
+
+
 .wygff > .wygff-container > .container .col > .card > .card-body {
-    width: 218px;
-    height: 22px;
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: center;
+    
+    
 }
 
 .wygff > .wygff-container > .container .col > .card{
-    width: 272px;
-    height: 154px;
     padding-left: 27px;
     padding-right: 27px;
     padding-top: 25px;
@@ -457,51 +454,61 @@ h3.h-can-do{
     background-color: #fdf6f0;
     text-align: center;
     border-radius:0;
+    
 }
 
 .wygff > .wygff-container > .container .col{
     margin-top: 50px;
     padding: 0 0 0 0;
+    display: inline-block;
+    line-height: 100%;
+    padding: 10px;
 }
 .wygff > .wygff-container > .container > .row{
-    width: 272px;
     margin: 0 0 0 0;
+    
 }
 
 .wygff > .wygff-container > .container{
-    height: 2498px;
-    width: 272px;
     margin-top: 45px;
     padding: 0 0 0 0;
 }
 
-.wygff > .wygff-container > .wygff-header{
-    height: 75px;
-    width: 272px;
-}
 
 .wygff > .wygff-container{
-    height: 2618px;
-    width: 320px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .wygff {
     align-items: center;
-    height: 2788px;
     padding-top: 80px;
     padding-bottom: 90px;
 }
-/**/
+/*help :"(*/
 
-@media (min-width: 319px) {
+@media (min-width: 320px) {
     .wygff{
         background: url(../img/what-you-get-for-free/background.png) 50% 50% / cover no-repeat fixed;
     }
 }
 
+@media (min-width: 770px) {
+    
+    
+}
 
+@media (min-width: 990px) {
+    
+}
+
+@media (min-width: 1280px) {
+    .wygff > .wygff-container > .container > .row{
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+}
+/**/
 
 /*Our rooms block*/
 p.p-rooms  {
@@ -570,14 +577,20 @@ a.a-rooms{
 .our-rooms > .rooms-container > .container .col{
     margin-top: 30px;
     padding: 0 0 0 0;
+    line-height: 100%;
+    padding: 10px;
 }
 .our-rooms > .rooms-container > .container > .row{
     margin: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
 }
 
 .our-rooms > .rooms-container > .container{
     margin-top: 45px;
     padding: 0 0 0 0;
+    
 }
 
 .our-rooms > .rooms-container{
@@ -605,8 +618,6 @@ a.a-rooms{
 }
 
 .membership{
-    width: 320px;
-    height: 639px;
     background-image: url("/img/membership/crew.jpg ") ;
     color: #fff4e9;
 }
@@ -615,19 +626,119 @@ a.a-rooms{
     color: #fff4e9;
     border-width: 2px;
 }
+/**/
 
+
+
+/*Pricing block*/
+.prising .inv-button{
+    color:#fff;
+}
+.pricing .card p{
+    color:#fff4e9;
+}
+.pricing .card h3{
+    color:#fff;
+}
+.pricing .card h2{
+    color:#fff;
+}
+
+.pricing > .pricing-container > .container .col > .card > .pricing-img > img{
+    width: 100%;
+}
+
+.pricing > .pricing-container > .container .col > .card > .pricing-img{
+    margin-top: 15px;
+    width: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pricing > .pricing-container > .container .col > .card > h2{
+    margin-top: 20px;
+}
+
+.pricing > .pricing-container > .container .col > .card > small{
+    margin-top: 2px;
+}
+
+.pricing > .pricing-container > .container .col > .card > p{
+    margin-top: 15px;
+}
+
+.pricing > .pricing-container > .container .col > .card > span{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing > .pricing-container > .container .col > .card > span{
+    width: 100%;
+}
+
+.pricing > .pricing-container > .container .col > .card{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: 0px;
+    background-color: rgb(27, 9, 20);
+    text-align: center;
+    border-radius:0;
+}
+
+.pricing > .pricing-container > .container .col{
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pricing > .pricing-container > .container > .row{
+    margin: 0 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.pricing > .pricing-container > .container{
+    margin-top: 45px;
+    padding: 0 0 0 0;
+}
+
+.pricing > .pricing-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.pricing{
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+}
+
+@media (min-width: 1280px) {
+    .pricing > .pricing-container > .container > .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(500px, auto);
+    }
+}
+
+/**/
 
 
 
 /*Events block*/
 .events > .events-container > .container > .row > .col > .card > .ev-image > .img{
-    width: 100%;
-    height: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .events > .events-container > .container > .row > .col > .card > .ev-image{
-    max-width: 100%;
     align-items: center;
+    width: 100%;
+    object-fit: cover;
 }
 
 .events > .events-container > .container > .row > .col > .card .card-body > .d-flex > .button{
@@ -644,6 +755,7 @@ a.a-rooms{
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: center;
+    
 }
 
 
@@ -661,6 +773,9 @@ a.a-rooms{
 .events > .events-container > .container > .row > .col{
     margin-top: 30px;
     padding: 0 0 0 0;
+    display: inline-block;
+    line-height: 100%;
+    padding: 10px;
 }
 
 .events > .events-container > .container > .row{
@@ -689,12 +804,12 @@ a.a-rooms{
 
 /*Partners block*/
 .partners > .partners-block > #partners-carousel > .carousel-inner > .carousel-item{
-    padding-left: 36px;
-    padding-right: 36px;
+    padding-left: auto;
+    padding-right: auto;
 }
 .partners > .partners-block > #partners-carousel > .carousel-inner{
-    padding-top: auto;
-    margin-top: 45px;
+    max-height: fit-content;
+    max-width: 100%;
 }
 
 .partners > .partners-block > #partners-carousel{
@@ -712,11 +827,26 @@ a.a-rooms{
     padding-top: 80px;
     padding-bottom: 90px;
 }
-
-
 /**/
 
+/*Testimonials block*/
 
+
+
+.testi > .testi-container{
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 45px;
+}
+
+.testi {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+/**/
+
+/**/
 .gallery{
     position: relative;
     padding-top: 80px;
@@ -739,5 +869,5 @@ a.a-rooms{
     box-sizing: border-box;
     display: flex;
     flex-basis: auto;
-   
- 
+    object-fit: cover;}*/
+

@@ -848,7 +848,6 @@ a.a-rooms{
 .gallery{   
     padding-top: 80px;
     padding-bottom: 90px;
-    position: relative;
     background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
 .gallery > .gallery-container{
@@ -856,22 +855,21 @@ a.a-rooms{
     padding-right: 24px;
 }
 .gallery > .gallery-container > .gallery-h2 {
-    word-wrap: break-word;
     text-align: left;
     display: block;
     color: #fff!important;
 }
 .gallery > .gallery-container >  .grid {
-    overflow: hodden;
+    max-width: 100%;
+    align-items: center;
+    overflow: hidden;
     display: grid;
     grid-template-columns: auto;
-    box-sizing: border-box;
     
 }
-.gallery > .gallery-container > .grid > .grid-item {
-    height:auto;
-    position: relative;
-    vertical-align: top ;
+.gallery > .gallery-container > .grid > .img-gallery {   
+    width: auto;
+    height: auto;
 }
 
  /*.img-gallery{

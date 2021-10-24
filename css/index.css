@@ -875,3 +875,53 @@ a.a-rooms{
 }
 
 
+
+.location > .location-container > .loc-parts{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.location > .location-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.location{
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+@media (min-width: 770px) {
+    .location > .location-container > .loc-parts{
+    grid-template-columns: 3fr 1fr;
+    }
+}
+
+@media (min-width: 990px) {
+    .location > .location-container{
+        padding-left: 32px;
+    padding-right: 32px;
+    }
+    .location{
+        padding-top: 80px;
+        padding-bottom: 95px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .location > .location-container > .loc-parts{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .location > .location-container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .location{
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+}

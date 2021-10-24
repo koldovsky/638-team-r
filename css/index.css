@@ -867,7 +867,7 @@ a.a-rooms{
     grid-template-columns: auto;
     
 }
-.gallery > .gallery-container > .grid > .img-gallery {   
+.gallery > .gallery-container > .grid > .img {   
     width: auto;
     height: auto;
 }

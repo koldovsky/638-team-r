@@ -909,16 +909,16 @@ a.a-rooms{
     grid-template-columns: repeat(1,1fr);
     display: grid;
 }
-@media(min-width: 600px)
-{
+
+@media(min-width: 600px){
     .gallery > .gallery-container > .gallery-grid{
         grid-gap: 1em;
         grid-template-columns: repeat(2,1fr);
         display: grid;
     }
 }
-@media(min-width: 1000px)
-{
+
+@media(min-width: 1000px){
     .gallery > .gallery-container > .gallery-grid{
         grid-gap: 1em;
         grid-template-columns: repeat(3,1fr);
@@ -931,12 +931,14 @@ a.a-rooms{
     padding-left: 24px;
     padding-right: 24px;
 }
+
 #gallery-h2{
     color: var(--ui-light-shade-color);
     text-align: left;
     display: block;
     color: #fff!important;
 }
+
 .gallery{
     padding-top: 80px;
     padding-bottom: 90px;
@@ -1007,12 +1009,15 @@ a.a-rooms{
 
 .form > .form-container > .form-block > .form-to-fill > .form-holder > input[type=text]{
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightgray;
+    border: 0px;
 }
 
 .form > .form-container > .form-block > .form-to-fill > .form-holder{
-    margin-top: 24px;
+    margin-top: 30px;
 }
 
 .form > .form-container .form-block > p{

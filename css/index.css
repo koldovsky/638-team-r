@@ -1082,17 +1082,31 @@ a.a-rooms{
 
 
 /*Footer block*/
+@media (min-width: 770px){
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .footer-list {
+        margin: 0px;
+    }
+    .footer-list a{
+        text-align: left;
+        margin: auto;
+    }
 
-.footer-link-conteiner a{
+}
+.footer-list a{
     color: rgb(255, 255, 255);
     font-size: 21px;
     display: table;
     text-decoration:none;
+    text-align: center;
     margin: auto;
     margin-bottom: 15px;
 }
-
 .footer {
+    display: grid;
     background-color: #1b0914;
     padding: 20px 24px 30px;
 }
@@ -1102,16 +1116,17 @@ a.a-rooms{
 
 }
 .footer-list {
+    text-decoration:none;
     margin-top: 50px;
     padding: 0px 15px;
 }
 .footer-email {
-    border-top-width: 54;
+    border-top-width: 54px;
     padding: 0px 15px;
     margin-top: 50px;
     margin: auto;
 }
-.footer-email span{
+.footer-email p{
     color: #C2C2C2;
     text-align: center;
 }

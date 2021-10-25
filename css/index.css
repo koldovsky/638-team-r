@@ -831,9 +831,9 @@ a.a-rooms{
 }
 /**/
 
+
+
 /*Testimonials block*/
-
-
 
 .testi > .testi-container{
     align-items: center;
@@ -848,8 +848,9 @@ a.a-rooms{
 }
 /**/
 
-/**/
 
+
+/*Gallery block*/
 
 .gallery > .gallery-container > .gallery-grid > img{
     width: 100%;
@@ -895,10 +896,11 @@ a.a-rooms{
     padding-bottom: 90px;
     background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
 }
+/**/
 
 
 
-
+/*Location block*/
 .location > .location-container > .loc-parts{
     display: grid;
     grid-template-columns: 1fr;
@@ -948,8 +950,12 @@ a.a-rooms{
         padding-bottom: 100px;
     }
 }
+/**/
 
+/*Testimonials block*/
+/**/
 
+/*Footer block*/
 
 .footer-link-conteiner a{
     color: rgb(255, 255, 255);

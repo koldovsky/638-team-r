@@ -956,11 +956,11 @@ a.a-rooms{
 
 .form > .form-container > .form-block > .form-to-fill > button{
     margin-top: 50px;
-    width: auto;
+    width: 100%;
 }
 
 .form > .form-container > .form-block > .form-to-fill > .form-holder > input[type=text]{
-    width: auto;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -977,6 +977,8 @@ a.a-rooms{
 .form > .form-container > .form-block{
     padding: 40px;
     text-align: center;
+    max-width: 570px;
+    background: white;
 }
 
 .form > .form-container{
@@ -989,7 +991,44 @@ a.a-rooms{
     padding-bottom: 90px;
     background: linear-gradient( rgba(102, 65, 107, 0.6),rgba(102, 65, 107, 0.6)), url(/img/form/city.jpeg);
 }
+
+@media (min-width: 770px) {
+    .form > .form-container > .form-block{
+        padding: 45px 60px;
+    }
+    .form > .form-container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .form{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+@media (min-width: 990px) {
+    .form > .form-container > .form-block{
+        padding: 60px 85px;
+    }
+    .form > .form-container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .form > .form-container > .form-block{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form > .form-container{
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+}
 /**/
+
+
 
 /*Footer block*/
 

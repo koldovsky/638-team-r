@@ -942,7 +942,7 @@ a.a-rooms{
 .gallery{
     padding-top: 80px;
     padding-bottom: 90px;
-    background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(/img/gallery/gallery-background.png);
+    background: linear-gradient( rgba(184, 141, 97, 0.96),rgba(184, 141, 97, 0.96)), url(../img/gallery/gallery-background.png);
 }
 /**/
 
@@ -1040,7 +1040,7 @@ a.a-rooms{
 .form{
     padding-top: 90px;
     padding-bottom: 90px;
-    background: linear-gradient( rgba(102, 65, 107, 0.6),rgba(102, 65, 107, 0.6)), url(/img/form/city.jpeg);
+    background: linear-gradient( rgba(102, 65, 107, 0.6),rgba(102, 65, 107, 0.6)), url(../img/form/city.jpeg);
 }
 
 @media (min-width: 770px) {

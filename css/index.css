@@ -953,6 +953,42 @@ a.a-rooms{
 /**/
 
 /*Testimonials block*/
+
+.form > .form-container > .form-block > .form-to-fill > button{
+    margin-top: 50px;
+    width: auto;
+}
+
+.form > .form-container > .form-block > .form-to-fill > .form-holder > input[type=text]{
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form > .form-container > .form-block > .form-to-fill > .form-holder{
+    margin-top: 24px;
+}
+
+.form > .form-container .form-block > p{
+    color: white;
+    margin-top: 25px;
+}
+
+.form > .form-container > .form-block{
+    padding: 40px;
+    text-align: center;
+}
+
+.form > .form-container{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.form{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: linear-gradient( rgba(102, 65, 107, 0.6),rgba(102, 65, 107, 0.6)), url(/img/form/city.jpeg);
+}
 /**/
 
 /*Footer block*/

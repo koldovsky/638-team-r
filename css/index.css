@@ -768,14 +768,12 @@ a.a-rooms{
 
 .events > .events-container > .container > .row > .col{
     margin-top: 30px;
-    padding: 0 0 0 0;
-    display: inline-block;
-    line-height: 100%;
-    padding: 10px;
+
 }
 
 .events > .events-container > .container > .row{
     margin: 0 0 0 0;
+    display: grid;
 }
 
 .events > .events-container .container{
@@ -793,6 +791,14 @@ a.a-rooms{
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #fff4e9;
+}
+
+@media (min-width: 980px) {
+    .events > .events-container > .container > .row{
+        display: flex;
+        /*grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: minmax(500px, auto);*/
+    }
 }
 /**/
 

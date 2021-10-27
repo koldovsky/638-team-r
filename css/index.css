@@ -947,17 +947,12 @@ a.a-rooms{
 
 
 /*Location block*/
+
 .location > .location-container > .loc-parts{
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1200px;
     align-items: center;
-}
-
-#map {
-    color:blue;
-    width:100%; 
-    height:600px;
 }
 
 .location > .location-container{

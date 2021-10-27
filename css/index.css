@@ -866,10 +866,12 @@ a.a-rooms{
 }
 @media(min-width: 1000px)
 {
-    .gallery > .gallery-container > .gallery-grid{
+    .gallery > .gallery-container > .gallery-grid{      
         grid-gap: 1em;
+        align-items:baseline;
         grid-template-columns: repeat(3,1fr);
         display: grid;
+        
     }
 }
 
@@ -898,6 +900,12 @@ a.a-rooms{
     grid-template-columns: 1fr;
     max-width: 1200px;
     align-items: center;
+}
+
+#map {
+    color:blue;
+    width:100%; 
+    height:600px;
 }
 
 .location > .location-container{

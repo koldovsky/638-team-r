@@ -290,8 +290,6 @@ h3.h-can-do{
 }
 
 .wcyd > .wcyd-container > .container .col > .card{
-    width: 272px;
-    height: 269px;
     padding-left: 27px;
     padding-right: 27px;
     padding-top: 39px;
@@ -309,37 +307,135 @@ h3.h-can-do{
 }
 
 .wcyd > .wcyd-container > .container > .row{
-    width: 272px;
     margin: 0 0 0 0;
 }
 
 .wcyd > .wcyd-container > .container{
-    height: 958px;
-    width: 272px;
     margin-top: 45px;
     padding: 0 0 0 0;
 }
 
 .wcyd > .wcyd-container > .wcyd-header{
-    height: 37px;
-    width: 272px;
+    align-items: center;
 }
 
 .wcyd > .wcyd-container{
-    height: 1040px;
-    width: 320px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .wcyd {
     align-items: center;
-    height: 1210px;
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #fff4e9;
 }
 /**/
+
+@media (min-width: 770px) {
+    .wcyd > .wcyd-container > .container .col > .card > .card-body{
+        padding: 0 0 0 0;
+    }
+
+    .wcyd > .wcyd-container > .container .col > .card{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 46px;
+        padding-bottom: 46px;
+        border: 0px;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius:0;
+    }
+    
+    .wcyd > .wcyd-container > .container .col{
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+    .wcyd > .wcyd-container > .container > .row{
+        margin-top: -30px;
+        margin-left: -15px;
+        margin-right: -15px;
+        display: flex;
+    }
+
+    .wcyd > .wcyd-container > .container{
+        margin-top: 40px;
+        padding: 0 0 0 0;
+    }
+
+    .wcyd > .wcyd-container > .wcyd-header{
+        text-align: center;
+    }
+
+    .wcyd > .wcyd-container{
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wcyd {
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 90px;
+        background-color: #fff4e9;
+    }
+}
+
+@media (min-width: 990px) {
+    .wcyd > .wcyd-container > .container .col > .card > .card-body{
+        padding: 0 0 0 0;
+    }
+
+    .wcyd > .wcyd-container > .container .col > .card{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 46px;
+        padding-bottom: 46px;
+        border: 0px;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius:0;
+    }
+    
+    .wcyd > .wcyd-container > .container .col{
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .wcyd > .wcyd-container > .container > .row{
+        padding: auto;
+      
+    }
+
+    .wcyd > .wcyd-container > .container{
+        padding: 0 0 0 0;
+    }
+
+    .wcyd > .wcyd-container > .wcyd-header{
+        text-align: center;
+    }
+
+    .wcyd > .wcyd-container{
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .wcyd {
+        align-items: center;;
+        padding-left: 32px;
+        padding-right: 32px;
+        background-color: #fff4e9;
+    }
+}
+
 
 @media (min-width: 1200px) {
     .wcyd > .wcyd-container > .container .col > .card > .card-body{
@@ -347,8 +443,6 @@ h3.h-can-do{
     }
 
     .wcyd > .wcyd-container > .container .col > .card{
-        width: 360px;
-        height: 261px;
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 60px;
@@ -360,35 +454,26 @@ h3.h-can-do{
     }
     
     .wcyd > .wcyd-container > .container .col{
-        width: 360px;
-        height: 261px;
         margin-top: 30px;
         margin-left: 15px;
         margin-right: 15px;
     }
     .wcyd > .wcyd-container > .container > .row{
-        width: 1170px;
-        height: 261px;
         margin-top: -30px;
         margin-left: -15px;
         margin-right: -15px;
     }
 
     .wcyd > .wcyd-container > .container{
-        height: 261px;
-        width: 1170px;
+       
         padding: 0 0 0 0;
     }
 
     .wcyd > .wcyd-container > .wcyd-header{
-        height: 52px;
-        width: 1170px;
         text-align: center;
     }
 
     .wcyd > .wcyd-container{
-        height: 358px;
-        width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
@@ -397,7 +482,6 @@ h3.h-can-do{
 
     .wcyd {
         align-items: center;
-        height: 538px;
         padding-top: 80px;
         padding-bottom: 100px;
         background-color: #fff4e9;
@@ -877,6 +961,14 @@ a.a-rooms{
 
 /*Testimonials block*/
 
+
+
+.testi > .testi-container > .testi-text {
+    height: 37px;
+    width: 272px;
+    text-align: center;
+}
+
 .testi > .testi-container{
     align-items: center;
     padding-left: 24px;
@@ -917,8 +1009,10 @@ a.a-rooms{
 @media(min-width: 1000px){
     .gallery > .gallery-container > .gallery-grid{
         grid-gap: 1em;
+        align-items:baseline;
         grid-template-columns: repeat(3,1fr);
         display: grid;
+        
     }
 }
 
@@ -945,12 +1039,34 @@ a.a-rooms{
 
 
 /*Location block*/
+
 .location > .location-container > .loc-parts{
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1200px;
     align-items: center;
 }
+.location > .location-container > .loc-parts> .loc-grid > .map > a{
+    color:red;
+}
+.location > .location-container > .loc-parts> .loc-grid > .map{
+    font-size: 20px;
+    animation: blink 1s infinite;
+    text-align: center;
+}
+
+.location > .location-container > .loc-parts> .loc-grid > .map:hover{
+    font-size: 50px; 
+    animation: blink 1s infinite; 
+}
+@keyframes blink {
+    from { 
+        opacity: 1;
+    }
+    to { 
+        opacity: 0.5;  
+    }
+   }
 
 .location > .location-container{
     padding-left: 24px;
@@ -958,6 +1074,7 @@ a.a-rooms{
 }
 
 .location{
+    background-image: url(../img/contacts/location.png);
     padding-top: 80px;
     padding-bottom: 90px;
 }
@@ -970,7 +1087,7 @@ a.a-rooms{
 
 @media (min-width: 990px) {
     .location > .location-container{
-        padding-left: 32px;
+    padding-left: 32px;
     padding-right: 32px;
     }
     .location{

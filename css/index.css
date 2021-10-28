@@ -951,6 +951,27 @@ a.a-rooms{
     max-width: 1200px;
     align-items: center;
 }
+.location > .location-container > .loc-parts> .loc-grid > .map > a{
+    color:red;
+}
+.location > .location-container > .loc-parts> .loc-grid > .map{
+    font-size: 20px;
+    animation: blink 1s infinite;
+    text-align: center;
+}
+
+.location > .location-container > .loc-parts> .loc-grid > .map:hover{
+    font-size: 50px; 
+    animation: blink 1s infinite; 
+}
+@keyframes blink {
+    from { 
+        opacity: 1;
+    }
+    to { 
+        opacity: 0.5;  
+    }
+   }
 
 .location > .location-container{
     padding-left: 24px;
@@ -958,6 +979,7 @@ a.a-rooms{
 }
 
 .location{
+    background-image: url(../img/contacts/location.png);
     padding-top: 80px;
     padding-bottom: 90px;
 }
@@ -970,7 +992,7 @@ a.a-rooms{
 
 @media (min-width: 990px) {
     .location > .location-container{
-        padding-left: 32px;
+    padding-left: 32px;
     padding-right: 32px;
     }
     .location{

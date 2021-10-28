@@ -954,13 +954,18 @@ a.a-rooms{
     max-width: 1200px;
     align-items: center;
 }
-
+.location > .location-container > .loc-parts> .loc-grid > .map{
+    height: 100%; 
+    width: 100%; 
+    padding-top: 30px;
+}
 .location > .location-container{
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .location{
+    background-image: url(../img/contacts/location.png);
     padding-top: 80px;
     padding-bottom: 90px;
 }
@@ -973,7 +978,7 @@ a.a-rooms{
 
 @media (min-width: 990px) {
     .location > .location-container{
-        padding-left: 32px;
+    padding-left: 32px;
     padding-right: 32px;
     }
     .location{

@@ -93,31 +93,25 @@
                     <h2>What Can You Do</h2>
                 </div>
                 <div class="container">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                        <div class="col">
-                            <div class="card work">
-                                <div class="card-body">
-                                    <h3 class="h-can-do">Work</h3>
-                                    <p class="p-can-do">Surf on very high-speed WiFi, use office appliances, and enjoy the vibe of our creative environment.</p>
-                                </div>
+                    <div class="raw">
+                        <div class="wcyd-card">
+                            <div class="wcyd-body work">
+                                <h3 class="h-can-do">Work</h3>
+                                <p class="p-can-do">Surf on very high-speed WiFi, use office appliances, and enjoy the vibe of our creative environment.</p>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="card communicate">
-                                <div class="card-body">
-                                    <h3 class="h-can-do">Communicate</h3>
-                                    <p class="p-can-do"> Gather at the table and share ideas; book a table, a room, or an entire FreeSpace.</p>
-                                </div>
+                        <div class="wcyd-card">
+                            <div class="wcyd-body communicate">
+                                <h3 class="h-can-do">Communicate</h3>
+                                <p class="p-can-do"> Gather at the table and share ideas; book a table, a room, or an entire FreeSpace.</p>
                             </div>
                         </div>
 
-                        <div class="col">
-                            <div class="card enjoy-sad">
-                                <div class="card-body">
-                                    <h3 class="h-can-do">Enjoy snacks and drinks</h3>
-                                    <p class="p-can-do">Drink unlimited amounts of coffee, tea, and fresh drinks; eat sweets and snacks for as much as you can.</p>
-                                </div>
+                        <div class="wcyd-card">
+                            <div class="wcyd-body enjoy-sad">
+                                <h3 class="h-can-do">Enjoy snacks and drinks</h3>
+                                <p class="p-can-do">Drink unlimited amounts of coffee, tea, and fresh drinks; eat sweets and snacks for as much as you can.</p>
                             </div>
                         </div>
                     </div>
@@ -518,16 +512,16 @@
             <div class="testi-text">
                 <h2>Testimonials</h2>
             </div>
-                <div class="testi-carousel" data-bs-ride="carousel">
+                <div id= "testi-carousel"class="carousel" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#testi-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#testi-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#testi-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#testi-carousel" data-bs-slide-to="0" class="active testi-button" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testi-carousel" data-bs-slide-to="1" class="testi-button"aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#testi-carousel" data-bs-slide-to="2" class="testi-button"aria-label="Slide 3"></button>
                     </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class ="testi-img">
-                                    <img src="img/testimonials/alice.png" class="d-block w-100" alt="Alice">
+                                    <img src="img/testimonials/alice.png"  alt="Alice">
                                 </div>
                                 <div class="carousel-caption d-none d-md-block">
                                 
@@ -538,7 +532,7 @@
 
                             <div class="carousel-item">
                                 <div class ="testi-img">
-                                    <img src="img/testimonials/henry.png" class="d-block w-100" alt="Henry">
+                                    <img src="img/testimonials/henry.png"  alt="Henry">
                                 </div>
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3>Henry Walsch</h3>
@@ -548,7 +542,7 @@
 
                             <div class="carousel-item">
                                 <div class ="testi-img"> 
-                                <img src="img/testimonials/bob.png" class="d-block w-100" alt="Bob">
+                                <img src="img/testimonials/bob.png" alt="Bob">
                                 </div>
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3>Bob Cooper</h3>

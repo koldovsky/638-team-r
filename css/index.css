@@ -91,11 +91,11 @@ header > .header a{
 /**/
 
 
+/*Header text block*/
 header > .header-bottom {
     background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)), url(../img/header/header.jpg) no-repeat center/auto 100%;
 }
 
-/*Header text block*/
 header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
     text-align: center;
     margin-top: 50px;
@@ -169,7 +169,7 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
     }
 
     header > .header-bottom {
-        background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)),  no-repeat center/100% auto url(../img/header/header.jpg);
+        background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)), url(../img/header/header.jpg) no-repeat center/100% auto;
     }
 
     header > .header-bottom > .header-bg > #header_bg{
@@ -291,25 +291,35 @@ h3.h-can-do{
 
 .wcyd > .wcyd-container > .container .wcyd-card > .wcyd-body{
     background-color: #ffffff;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
 }
 
 .wcyd > .wcyd-container > .container .wcyd-card{
     text-align: center;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .wcyd > .wcyd-container > .container > .row{
     display: grid;
     grid-template-columns: 1fr;
+    
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .wcyd > .wcyd-container > .container{
     margin-top: 45px;
-    padding: 0;
+    padding: 0 0 0 0;
+    max-width: 1200px;
 }
 
 .wcyd > .wcyd-container > .wcyd-header{
-    align-items: center;
-    max-width: 1200px;
+    text-align: center;
 }
 
 .wcyd > .wcyd-container{
@@ -325,7 +335,18 @@ h3.h-can-do{
 }
 
 @media (min-width: 770px) {
+    .wcyd > .wcyd-container > .container .wcyd-card > .enjoy-sad{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/coffee-break.png);
+    }
     
+    .wcyd > .wcyd-container > .container .wcyd-card > .communicate{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.png);
+    }
+    
+    .wcyd > .wcyd-container > .container .wcyd-card > .work{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.png);
+    }
+
     .wcyd > .wcyd-container > .container > .row{
         display: flex;
         flex-wrap: wrap;
@@ -350,6 +371,11 @@ h3.h-can-do{
 }
 
 @media (min-width: 990px) {
+
+    .wcyd > .wcyd-container > .container .wcyd-card > .wcyd-body{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
     .wcyd > .wcyd-container > .container > .row{
         grid-template-columns: 1fr 1fr 1fr;
@@ -527,24 +553,24 @@ a.a-rooms{
     margin: 0 0 0 0;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .damn-image > .rooms{
+.our-rooms > .rooms-container > .containery .col > .card > .damn-image > .rooms{
     max-width: 100%;
     max-height: 100%;
     align-items: center;
     
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .damn-image{
+.our-rooms > .rooms-container > .containery .col > .card > .damn-image{
     align-items: center;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body > h3{
+.our-rooms > .rooms-container > .containery .col > .card > .card-body > h3{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body > p{
+.our-rooms > .rooms-container > .containery .col > .card > .card-body > p{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     margin-top: 20px;
@@ -552,13 +578,13 @@ a.a-rooms{
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body {
+.our-rooms > .rooms-container > .containery .col > .card > .card-body {
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card{
+.our-rooms > .rooms-container > .containery .col > .card{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -569,23 +595,22 @@ a.a-rooms{
     border-radius:0;
 }
 
-.our-rooms > .rooms-container > .container .col{
+.our-rooms > .rooms-container > .containery .col{
     margin-top: 30px;
     padding: 0 0 0 0;
     line-height: 100%;
     padding: 10px;
 }
 
-.our-rooms > .rooms-container > .container > .row{
-    margin: 0 0 0 0;
-    width: 100%;
-    display: flex;
-    align-items: stretch;
+.our-rooms > .rooms-container > .containery > .row{
+    display: grid;
 }
 
-.our-rooms > .rooms-container > .container{
+.our-rooms > .rooms-container > .containery{
     margin-top: 45px;
     padding: 0 0 0 0;
+    margin-left: 0;
+    margin-right: 0;
     
 }
 
@@ -600,6 +625,30 @@ a.a-rooms{
     padding-bottom: 90px;
     background-color: #fff4e9;
 }
+
+@media (min-width:320px) {
+    .our-rooms > .rooms-container > .containery .col > .card{
+    min-height: 600px;
+    }
+}
+
+@media (min-width:770px) {
+    .our-rooms > .rooms-container > .containery .col > .card{
+        min-height: 745px;
+    }
+    
+    .our-rooms > .rooms-container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .our-rooms {
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 95px;
+    }
+}
+
 /**/
 
 
@@ -1092,6 +1141,11 @@ a.a-rooms{
 
 @media (min-width: 770px) {
     .form > .form-container > .form-block{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form > .form-container > .form-block{
         padding: 45px 60px;
     }
     .form > .form-container{
@@ -1112,13 +1166,8 @@ a.a-rooms{
         padding-right: 40px;
         
     }
-}
-                        
+}                      
 @media (min-width: 1280px) {
-    .form > .form-container > .form-block{
-        margin-left: auto;
-        margin-right: auto;
-    }
     .form > .form-container{
         padding-left: 15px;
         padding-right: 15px;

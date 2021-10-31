@@ -326,11 +326,16 @@ h3.h-can-do{
 
 @media (min-width: 770px) {
     
-
     .wcyd > .wcyd-container > .container > .row{
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    .wcyd > .wcyd-container > .wcyd-header{
+        align-items: center;
     }
 
     .wcyd > .wcyd-container{
@@ -349,6 +354,11 @@ h3.h-can-do{
     .wcyd > .wcyd-container > .container > .row{
         grid-template-columns: 1fr 1fr 1fr;
        
+    }
+
+
+    .wcyd > .wcyd-container > .wcyd-header{
+        align-items: center;
     }
 
     .wcyd > .wcyd-container{
@@ -371,6 +381,12 @@ h3.h-can-do{
     .wcyd > .wcyd-container > .container{
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .wcyd > .wcyd-container > .wcyd-header{
+        align-items: center;
+        text-align: center;
+        
     }
 
     .wcyd > .wcyd-container{

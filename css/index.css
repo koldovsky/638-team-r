@@ -946,8 +946,18 @@ a.a-rooms{
     text-align: center;
 }
 
+.testi > .testi-container > .carousel > .carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    max-width: 770px;
+}
+
 .testi > .testi-container  > .carousel  {
     margin-top: 45px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .testi > .testi-container > .testi-text  {
@@ -960,6 +970,7 @@ a.a-rooms{
     padding-left: 24px;
     padding-right: 24px;
     margin-top: 45px;
+    
 }
 
 .testi {

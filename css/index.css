@@ -125,8 +125,6 @@ header > .header-bottom {
     line-height: inherit;
     font-style: normal;
 }
-/**/
-/*Header button block*/
 
 header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space > .space-button{
     padding-left: auto;
@@ -142,7 +140,6 @@ header > .header-bottom >  .header-bg > #header_bg > .hero-button > .inbutton > 
 header > .header-bottom > .header-bg > #header_bg > .hero-button{
     margin-top: 50px;
 }
-/*Header button end*/
 
 @media (min-width: 770px) {
     header > .header-bottom > .header-bg > #header_bg{
@@ -185,7 +182,7 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
         padding-bottom: 250px;
     }
 }
-
+/**/
 
 
 
@@ -210,8 +207,6 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
     padding-top: 85px;
     padding-bottom: 90px;
 }
-/**/
-/*Concept button*/
 
 .concept > .concept-block > .concept-button > .concept-button-block {
     align-items: center;
@@ -223,12 +218,11 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 .concept > .concept-block > .concept-button {
     margin-top: 50px;
 }
-/**/
 
 @media (min-width: 770px) {
     .concept > .concept-block {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-left: 100px;
+        padding-right: 100px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -242,10 +236,8 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 
 @media (min-width: 990px) {
     .concept > .concept-block {
-        padding-left: 40px;
-        padding-right: 40px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     .concept {
@@ -264,6 +256,8 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
         margin-right: auto;
     }
 }
+/**/
+
 
 
 /*!!!What Can You Do block*/
@@ -288,7 +282,6 @@ h3.h-can-do{
 .wcyd > .wcyd-container > .container .wcyd-card > .work{
     background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.png);
 }
-
 
 .wcyd > .wcyd-container > .container .wcyd-card > .wcyd-body{
     background-color: #ffffff;
@@ -428,8 +421,6 @@ h3.h-can-do{
 
 
 
-
-
 /*What You Can Get for Free block*/
 .wygff > .col > p{
     font-size: 14px;
@@ -514,10 +505,11 @@ h3.h-can-do{
 }
 
 @media (min-width: 770px) {
+    
 }
 
 @media (min-width: 990px) {
-    
+
 }
 
 @media (min-width: 1280px) {
@@ -531,12 +523,12 @@ h3.h-can-do{
 
 
 /*Our rooms block*/
-p.p-rooms  {
+p.p-rooms{
     color:#1b0914;
     margin: 0 0 0 0;
 }
 
-span {
+span{
     color:#1b0914;
     font-weight: bold;
     margin: 0 0 0 0;
@@ -556,7 +548,6 @@ a.a-rooms{
     max-width: 100%;
     max-height: 100%;
     align-items: center;
-    
 }
 
 .our-rooms > .rooms-container > .containery .col > .card > .damn-image{
@@ -647,7 +638,6 @@ a.a-rooms{
         padding-bottom: 95px;
     }
 }
-
 /**/
 
 
@@ -726,12 +716,15 @@ a.a-rooms{
 .prising .inv-button{
     color:#fff;
 }
+
 .pricing .card p{
     color:#fff4e9;
 }
+
 .pricing .card h3{
     color:#fff;
 }
+
 .pricing .card h2{
     color:#fff;
 }
@@ -930,7 +923,6 @@ a.a-rooms{
     border-radius: 50%;
 }
 
-
 .testi > .testi-container > .testi-text  > .carousel > .carousel-indicators > .testi-button{
     color: rgb(184, 141, 97);
 }
@@ -1028,9 +1020,11 @@ a.a-rooms{
     max-width: 1200px;
     align-items: center;
 }
+
 .location > .location-container > .loc-parts> .loc-grid > .map > a{
     color:red;
 }
+
 .location > .location-container > .loc-parts> .loc-grid > .map{
     font-size: 20px;
     animation: blink 1s infinite;
@@ -1041,6 +1035,7 @@ a.a-rooms{
     font-size: 50px; 
     animation: blink 1s infinite; 
 }
+
 @keyframes blink {
     from { 
         opacity: 1;
@@ -1048,7 +1043,7 @@ a.a-rooms{
     to { 
         opacity: 0.5;  
     }
-   }
+}
 
 .location > .location-container{
     padding-left: 24px;
@@ -1095,7 +1090,9 @@ a.a-rooms{
 }
 /**/
 
-/*Testimonials block*/
+
+
+/*Form block*/
 
 .form > .form-container > .form-block > .form-to-fill > button{
     margin-top: 50px;
@@ -1156,6 +1153,7 @@ a.a-rooms{
         padding-bottom: 100px;
     }
 }
+
 @media (min-width: 990px) {
     .form > .form-container > .form-block{
         padding: 60px 85px;
@@ -1165,7 +1163,8 @@ a.a-rooms{
         padding-right: 40px;
         
     }
-}                      
+}   
+                   
 @media (min-width: 1280px) {
     .form > .form-container{
         padding-left: 15px;

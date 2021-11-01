@@ -916,25 +916,6 @@ a.a-rooms{
 
 
 /*Testimonials block*/
- 
-.testi > .testi-container > .testi-text  > .carousel > .carousel-indicators > .testi-button > .testi-img{
-    border-radius: 50%;
-}
-
-.testi > .testi-container > .testi-text  > .carousel > .carousel-indicators > .testi-button{
-    color: rgb(184, 141, 97);
-}
-
-.testi > .testi-container > .testi-text  > .carousel > .carousel-indicators {
-    margin-top: 10px;
-    
-}
-
-.testi > .testi-container > .testi-text  > .carousel  {
-    padding-left: 15px;
-    padding-right: 15px;
-      
-}
 
 .testi > .testi-container > .testi-text >  {
     text-align: center;

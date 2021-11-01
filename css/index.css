@@ -898,8 +898,15 @@ a.a-rooms{
 
 
 /*Partners block*/
-.partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner{
-    max-height: fit-content;
+
+
+.partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner > .carousel-item > .part-img{
+    height: 100%;
+    width: auto;
+}
+
+.partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner > .carousel-item{
+    max-height: 260px;
 }
 
 .partners > .partners-block > .partners-container > #partners-carousel{
@@ -907,7 +914,7 @@ a.a-rooms{
 }
 
 .partners > .partners-block > .partners-container {
- max-width: 1170px;
+ max-width: 1200px;
 }
 
 .partners > .partners-block{

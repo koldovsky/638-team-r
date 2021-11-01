@@ -288,7 +288,6 @@ h3.h-can-do{
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 40px;
 }
 
 .wcyd > .wcyd-container > .container .wcyd-card{
@@ -301,8 +300,6 @@ h3.h-can-do{
 .wcyd > .wcyd-container > .container > .row{
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 .wcyd > .wcyd-container > .container{
@@ -354,10 +351,18 @@ h3.h-can-do{
         background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.png);
     }
 
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card > .wcyd-body{
+        min-height: 280px;
+    }
+
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card{
+        width: 40%;
+    }
+
     .wcyd > .wcyd-container > .container > .row{
-        grid-template-columns: 1fr 1fr;
-        margin-left: 15px;
-        margin-right: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .wcyd > .wcyd-container{
@@ -372,15 +377,8 @@ h3.h-can-do{
 }
 
 @media (min-width: 990px) {
-
-    .wcyd > .wcyd-container > .container .wcyd-card > .wcyd-body{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .wcyd > .wcyd-container > .container > .row{
-        grid-template-columns: 1fr 1fr 1fr;
-       
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card{
+        width: 30%;
     }
 
     .wcyd > .wcyd-container{

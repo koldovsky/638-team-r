@@ -674,6 +674,11 @@ a.a-rooms{
 }
 
 @media (min-width: 770px) {
+    .membership > .member-container > .member-block{
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
     .membership > .member-container{
         padding-left: 32px;
         padding-right: 32px;
@@ -696,10 +701,6 @@ a.a-rooms{
 }
 
 @media (min-width: 1280px) {
-    .membership > .member-container > .member-block{
-        margin-left: auto;
-        margin-right: auto;
-    } 
 
     .membership > .member-container{
         padding-left: 15px;
@@ -727,58 +728,53 @@ a.a-rooms{
     color:#fff;
 }
 
-.pricing > .pricing-container > .container .col > .card > .pricing-img > img{
+.pricing > .pricing-container > .container .cal > .card > .pricing-img > img{
     width: 100%;
 }
 
-.pricing > .pricing-container > .container .col > .card > .pricing-img{
+.pricing > .pricing-container > .container .cal > .card > .pricing-img{
     margin-top: 15px;
     width: 70px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.pricing > .pricing-container > .container .col > .card > h2{
+.pricing > .pricing-container > .container .cal > .card > h2{
     margin-top: 20px;
 }
 
-.pricing > .pricing-container > .container .col > .card > small{
+.pricing > .pricing-container > .container .cal > .card > small{
     margin-top: 2px;
 }
 
-.pricing > .pricing-container > .container .col > .card > p{
+.pricing > .pricing-container > .container .cal > .card > p{
     margin-top: 15px;
 }
 
-.pricing > .pricing-container > .container .col > .card > span{
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+.pricing > .pricing-container > .container .cal > .card > button > a{
+    color: #fff;
 }
 
-.pricing > .pricing-container > .container .col > .card > span{
-    width: 100%;
-}
-
-.pricing > .pricing-container > .container .col > .card{
+.pricing > .pricing-container > .container .cal > .card{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 70px;
-    padding-bottom: 70px;
     border: 0px;
     background-color: rgb(27, 9, 20);
     text-align: center;
     border-radius:0;
+    align-items: center;
+    min-height: 470px;
 }
 
-.pricing > .pricing-container > .container .col{
+.pricing > .pricing-container > .container .cal{
     margin-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .pricing > .pricing-container > .container > .row{
-    margin: 0 0 0 0;
+    
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -786,6 +782,7 @@ a.a-rooms{
 .pricing > .pricing-container > .container{
     margin-top: 45px;
     padding: 0 0 0 0;
+    max-width: 1200px;
 }
 
 .pricing > .pricing-container{
@@ -800,11 +797,25 @@ a.a-rooms{
     background-color: #ffffff;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 770px) {
+    .pricing > .pricing-container > .container > .row > .cal > .card{
+        min-height: 640px;
+    }
+
+    .pricing > .pricing-container > .container > .row > .cal{
+        width: 40%;
+    }
+
     .pricing > .pricing-container > .container > .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(500px, auto);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 990px) {
+    .pricing > .pricing-container > .container > .row > .cal{
+        width: 30%;
     }
 }
 /**/

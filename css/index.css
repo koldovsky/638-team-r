@@ -928,12 +928,34 @@ a.a-rooms{
 
 /*Testimonials block*/
 
-.testi > .testi-container > .testi-text >  {
+.testi > .testi-container > .carousel .carousel-item > .testi-img > .testimg {
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+}
+
+.testi > .testi-container > .carousel .carousel-item > .testi-img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testi > .testi-container > .carousel .carousel-item {
+    min-height: 300px;
+    text-align: center;
+}
+
+.testi > .testi-container  > .carousel  {
+    margin-top: 45px;
+}
+
+.testi > .testi-container > .testi-text  {
     text-align: center;
     margin-top: 50px;
 }
 
-.testi > .testi-container{
+.testi > .testi-container {
     align-items: center;
     padding-left: 24px;
     padding-right: 24px;

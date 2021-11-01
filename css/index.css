@@ -91,11 +91,11 @@ header > .header a{
 /**/
 
 
+/*Header text block*/
 header > .header-bottom {
     background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)), url(../img/header/header.jpg) no-repeat center/auto 100%;
 }
 
-/*Header text block*/
 header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
     text-align: center;
     margin-top: 50px;
@@ -125,8 +125,6 @@ header > .header-bottom {
     line-height: inherit;
     font-style: normal;
 }
-/**/
-/*Header button block*/
 
 header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space > .space-button{
     padding-left: auto;
@@ -142,7 +140,6 @@ header > .header-bottom >  .header-bg > #header_bg > .hero-button > .inbutton > 
 header > .header-bottom > .header-bg > #header_bg > .hero-button{
     margin-top: 50px;
 }
-/*Header button end*/
 
 @media (min-width: 770px) {
     header > .header-bottom > .header-bg > #header_bg{
@@ -169,7 +166,7 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
     }
 
     header > .header-bottom {
-        background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)),  no-repeat center/100% auto url(../img/header/header.jpg);
+        background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)), url(../img/header/header.jpg) no-repeat center/100% auto;
     }
 
     header > .header-bottom > .header-bg > #header_bg{
@@ -185,7 +182,7 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
         padding-bottom: 250px;
     }
 }
-
+/**/
 
 
 
@@ -210,8 +207,6 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
     padding-top: 85px;
     padding-bottom: 90px;
 }
-/**/
-/*Concept button*/
 
 .concept > .concept-block > .concept-button > .concept-button-block {
     align-items: center;
@@ -223,12 +218,11 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 .concept > .concept-block > .concept-button {
     margin-top: 50px;
 }
-/**/
 
 @media (min-width: 770px) {
     .concept > .concept-block {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-left: 100px;
+        padding-right: 100px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -242,10 +236,8 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 
 @media (min-width: 990px) {
     .concept > .concept-block {
-        padding-left: 40px;
-        padding-right: 40px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     .concept {
@@ -264,6 +256,8 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
         margin-right: auto;
     }
 }
+/**/
+
 
 
 /*!!!What Can You Do block*/
@@ -277,132 +271,151 @@ h3.h-can-do{
     margin: 0 0 0 0;
 }
 
-.wcyd > .wcyd-container > .container .col > .enjoy-sad{
-    background: no-repeat center /100% auto url(../img/what-you-can-do/coffee-break.webp);
+.wcyd > .wcyd-container > .container .wcyd-card > .enjoy-sad{
+    background: no-repeat center /auto 100% url(../img/what-you-can-do/coffee-break.png);
 }
 
-.wcyd > .wcyd-container > .container .col > .communicate{
-    background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.webp);
+.wcyd > .wcyd-container > .container .wcyd-card > .communicate{
+    background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.png);
 }
 
-.wcyd > .wcyd-container > .container .col > .work{
-    background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.webp);
+.wcyd > .wcyd-container > .container .wcyd-card > .work{
+    background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.png);
 }
 
-.wcyd > .wcyd-container > .container .col > .card{
-    width: 272px;
-    height: 269px;
-    padding-left: 27px;
-    padding-right: 27px;
-    padding-top: 39px;
-    padding-bottom: 39px;
-    border: 0px;
+.wcyd > .wcyd-container > .container .wcyd-card > .wcyd-body{
     background-color: #ffffff;
-    text-align: center;
-    border-radius:0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.wcyd > .wcyd-container > .container .col{
-    margin-top: 50px;
-    padding: 0 0 0 0;
-    
+.wcyd > .wcyd-container > .container .wcyd-card{
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .wcyd > .wcyd-container > .container > .row{
-    width: 272px;
-    margin: 0 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .wcyd > .wcyd-container > .container{
-    height: 958px;
-    width: 272px;
     margin-top: 45px;
     padding: 0 0 0 0;
+    max-width: 1200px;
 }
 
 .wcyd > .wcyd-container > .wcyd-header{
-    height: 37px;
-    width: 272px;
+    text-align: center;
 }
 
 .wcyd > .wcyd-container{
-    height: 1040px;
-    width: 320px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .wcyd {
     align-items: center;
-    height: 1210px;
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #fff4e9;
 }
-/**/
 
-@media (min-width: 1200px) {
-    .wcyd > .wcyd-container > .container .col > .card > .card-body{
-        padding: 0 0 0 0;
-    }
-
-    .wcyd > .wcyd-container > .container .col > .card{
-        width: 360px;
-        height: 261px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        border: 0px;
-        background-color: #ffffff;
-        text-align: center;
-        border-radius:0;
+@media (min-width: 500px) {
+    .wcyd > .wcyd-container > .container .wcyd-card > .enjoy-sad{
+        background: no-repeat center /100% auto url(../img/what-you-can-do/coffee-break.png);
     }
     
-    .wcyd > .wcyd-container > .container .col{
-        width: 360px;
-        height: 261px;
-        margin-top: 30px;
-        margin-left: 15px;
-        margin-right: 15px;
+    .wcyd > .wcyd-container > .container .wcyd-card > .communicate{
+        background: no-repeat center /100% auto url(../img/what-you-can-do/business-meeting.png);
     }
+    
+    .wcyd > .wcyd-container > .container .wcyd-card > .work{
+        background: no-repeat center /100% auto url(../img/what-you-can-do/working-table.png);
+    }
+}
+
+@media (min-width: 770px) {
+    .wcyd > .wcyd-container > .container .wcyd-card > .enjoy-sad{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/coffee-break.png);
+    }
+    
+    .wcyd > .wcyd-container > .container .wcyd-card > .communicate{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.png);
+    }
+    
+    .wcyd > .wcyd-container > .container .wcyd-card > .work{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.png);
+    }
+
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card > .wcyd-body{
+        min-height: 280px;
+    }
+
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card{
+        width: 40%;
+    }
+
     .wcyd > .wcyd-container > .container > .row{
-        width: 1170px;
-        height: 261px;
-        margin-top: -30px;
-        margin-left: -15px;
-        margin-right: -15px;
-    }
-
-    .wcyd > .wcyd-container > .container{
-        height: 261px;
-        width: 1170px;
-        padding: 0 0 0 0;
-    }
-
-    .wcyd > .wcyd-container > .wcyd-header{
-        height: 52px;
-        width: 1170px;
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .wcyd > .wcyd-container{
-        height: 358px;
-        width: 1200px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .wcyd {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+}
+
+@media (min-width: 990px) {
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card{
+        width: 30%;
+    }
+
+    .wcyd > .wcyd-container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .wcyd {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card{
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    
+    .wcyd > .wcyd-container > .container{
         margin-left: auto;
         margin-right: auto;
     }
 
+    .wcyd > .wcyd-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .wcyd {
         align-items: center;
-        height: 538px;
-        padding-top: 80px;
+        padding-top: 90px;
         padding-bottom: 100px;
-        background-color: #fff4e9;
+        
     }
 }
+/**/
 
 
 
@@ -490,10 +503,11 @@ h3.h-can-do{
 }
 
 @media (min-width: 770px) {
+    
 }
 
 @media (min-width: 990px) {
-    
+
 }
 
 @media (min-width: 1280px) {
@@ -504,13 +518,15 @@ h3.h-can-do{
 }
 /**/
 
+
+
 /*Our rooms block*/
-p.p-rooms  {
+p.p-rooms{
     color:#1b0914;
     margin: 0 0 0 0;
 }
 
-span {
+span{
     color:#1b0914;
     font-weight: bold;
     margin: 0 0 0 0;
@@ -526,24 +542,23 @@ a.a-rooms{
     margin: 0 0 0 0;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .damn-image > .rooms{
+.our-rooms > .rooms-container > .containery .col > .card > .damn-image > .rooms{
     max-width: 100%;
     max-height: 100%;
     align-items: center;
-    
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .damn-image{
+.our-rooms > .rooms-container > .containery .col > .card > .damn-image{
     align-items: center;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body > h3{
+.our-rooms > .rooms-container > .containery .col > .card > .card-body > h3{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body > p{
+.our-rooms > .rooms-container > .containery .col > .card > .card-body > p{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     margin-top: 20px;
@@ -551,13 +566,13 @@ a.a-rooms{
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body {
+.our-rooms > .rooms-container > .containery .col > .card > .card-body {
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card{
+.our-rooms > .rooms-container > .containery .col > .card{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -568,23 +583,22 @@ a.a-rooms{
     border-radius:0;
 }
 
-.our-rooms > .rooms-container > .container .col{
+.our-rooms > .rooms-container > .containery .col{
     margin-top: 30px;
     padding: 0 0 0 0;
     line-height: 100%;
     padding: 10px;
 }
 
-.our-rooms > .rooms-container > .container > .row{
-    margin: 0 0 0 0;
-    width: 100%;
-    display: flex;
-    align-items: stretch;
+.our-rooms > .rooms-container > .containery > .row{
+    display: grid;
 }
 
-.our-rooms > .rooms-container > .container{
+.our-rooms > .rooms-container > .containery{
     margin-top: 45px;
     padding: 0 0 0 0;
+    margin-left: 0;
+    margin-right: 0;
     
 }
 
@@ -598,6 +612,29 @@ a.a-rooms{
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #fff4e9;
+}
+
+@media (min-width:320px) {
+    .our-rooms > .rooms-container > .containery .col > .card{
+    min-height: 600px;
+    }
+}
+
+@media (min-width:770px) {
+    .our-rooms > .rooms-container > .containery .col > .card{
+        min-height: 745px;
+    }
+    
+    .our-rooms > .rooms-container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .our-rooms {
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 95px;
+    }
 }
 /**/
 
@@ -677,12 +714,15 @@ a.a-rooms{
 .prising .inv-button{
     color:#fff;
 }
+
 .pricing .card p{
     color:#fff4e9;
 }
+
 .pricing .card h3{
     color:#fff;
 }
+
 .pricing .card h2{
     color:#fff;
 }
@@ -876,6 +916,30 @@ a.a-rooms{
 
 
 /*Testimonials block*/
+ 
+.testi > .testi-container > .testi-text  > .carousel > .carousel-indicators > .testi-button > .testi-img{
+    border-radius: 50%;
+}
+
+.testi > .testi-container > .testi-text  > .carousel > .carousel-indicators > .testi-button{
+    color: rgb(184, 141, 97);
+}
+
+.testi > .testi-container > .testi-text  > .carousel > .carousel-indicators {
+    margin-top: 10px;
+    
+}
+
+.testi > .testi-container > .testi-text  > .carousel  {
+    padding-left: 15px;
+    padding-right: 15px;
+      
+}
+
+.testi > .testi-container > .testi-text >  {
+    text-align: center;
+    margin-top: 50px;
+}
 
 .testi > .testi-container{
     align-items: center;
@@ -917,8 +981,10 @@ a.a-rooms{
 @media(min-width: 1000px){
     .gallery > .gallery-container > .gallery-grid{
         grid-gap: 1em;
+        align-items:baseline;
         grid-template-columns: repeat(3,1fr);
         display: grid;
+        
     }
 }
 
@@ -945,11 +1011,36 @@ a.a-rooms{
 
 
 /*Location block*/
+
 .location > .location-container > .loc-parts{
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1200px;
     align-items: center;
+}
+
+.location > .location-container > .loc-parts> .loc-grid > .map > a{
+    color:red;
+}
+
+.location > .location-container > .loc-parts> .loc-grid > .map{
+    font-size: 20px;
+    animation: blink 1s infinite;
+    text-align: center;
+}
+
+.location > .location-container > .loc-parts> .loc-grid > .map:hover{
+    font-size: 50px; 
+    animation: blink 1s infinite; 
+}
+
+@keyframes blink {
+    from { 
+        opacity: 1;
+    }
+    to { 
+        opacity: 0.5;  
+    }
 }
 
 .location > .location-container{
@@ -958,6 +1049,7 @@ a.a-rooms{
 }
 
 .location{
+    background-image: url(../img/contacts/location.png);
     padding-top: 80px;
     padding-bottom: 90px;
 }
@@ -970,7 +1062,7 @@ a.a-rooms{
 
 @media (min-width: 990px) {
     .location > .location-container{
-        padding-left: 32px;
+    padding-left: 32px;
     padding-right: 32px;
     }
     .location{
@@ -996,7 +1088,9 @@ a.a-rooms{
 }
 /**/
 
-/*Testimonials block*/
+
+
+/*Form block*/
 
 .form > .form-container > .form-block > .form-to-fill > button{
     margin-top: 50px;
@@ -1041,6 +1135,11 @@ a.a-rooms{
 
 @media (min-width: 770px) {
     .form > .form-container > .form-block{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form > .form-container > .form-block{
         padding: 45px 60px;
     }
     .form > .form-container{
@@ -1052,6 +1151,7 @@ a.a-rooms{
         padding-bottom: 100px;
     }
 }
+
 @media (min-width: 990px) {
     .form > .form-container > .form-block{
         padding: 60px 85px;
@@ -1059,14 +1159,11 @@ a.a-rooms{
     .form > .form-container{
         padding-left: 40px;
         padding-right: 40px;
+        
     }
-}
-
+}   
+                   
 @media (min-width: 1280px) {
-    .form > .form-container > .form-block{
-        margin-left: auto;
-        margin-right: auto;
-    }
     .form > .form-container{
         padding-left: 15px;
         padding-right: 15px;

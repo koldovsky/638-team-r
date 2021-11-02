@@ -774,7 +774,6 @@ a.a-rooms{
 }
 
 .pricing > .pricing-container > .container > .row{
-    
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -847,33 +846,35 @@ a.a-rooms{
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: center;
-    
 }
 
 .events > .events-container > .container > .row > .col > .card{
     padding-left: 27px;
     padding-right: 27px;
     padding-top: 30px;
-    padding-bottom: 30px;
     border: 0px;
     background-color: #ffffff;
     text-align: center;
     border-radius:0;
+    align-items: center;
+    min-height: 720px;
 }
 
 .events > .events-container > .container > .row > .col{
     margin-top: 30px;
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .events > .events-container > .container > .row{
-    margin: 0 0 0 0;
     display: grid;
+    grid-template-columns: 1fr;
 }
 
 .events > .events-container .container{
     margin-top: 45px;
     padding: 0 0 0 0;
+    max-width: 1200px;
 }
 
 .events > .events-container{
@@ -898,8 +899,6 @@ a.a-rooms{
 
 
 /*Partners block*/
-
-
 .partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner > .carousel-item > .part-item > .part-img{
     height: 100%;
     width: auto;
@@ -908,13 +907,11 @@ a.a-rooms{
 }
 
 .partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner > .carousel-item > .part-item{
-    
     align-items: center;
 }
 
 .partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner > .carousel-item{
     max-height: 260px;
-    
 }
 
 .partners > .partners-block > .partners-container > #partners-carousel{
@@ -932,7 +929,6 @@ a.a-rooms{
     align-items: center;
     padding-left: 24px;
     padding-right: 24px;
-    
 }
 
 .partners{
@@ -989,7 +985,6 @@ a.a-rooms{
     padding-left: 24px;
     padding-right: 24px;
     margin-top: 45px;
-    
 }
 
 .testi {

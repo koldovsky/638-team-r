@@ -764,7 +764,7 @@ a.a-rooms{
     text-align: center;
     border-radius:0;
     align-items: center;
-    min-height: 470px;
+    min-height: 550px;
 }
 
 .pricing > .pricing-container > .container .cal{
@@ -815,6 +815,12 @@ a.a-rooms{
 @media (min-width: 990px) {
     .pricing > .pricing-container > .container > .row > .cal{
         width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pricing > .pricing-container > .container > .row > .cal > .card{
+        min-height: 550px;
     }
 }
 /**/

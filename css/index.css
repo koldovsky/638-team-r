@@ -91,11 +91,11 @@ header > .header a{
 /**/
 
 
+/*Header text block*/
 header > .header-bottom {
     background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)), url(../img/header/header.jpg) no-repeat center/auto 100%;
 }
 
-/*Header text block*/
 header > .header-bottom > .header-bg > #header_bg > .hero > .hero-inner > .hero-text{
     text-align: center;
     margin-top: 50px;
@@ -125,8 +125,6 @@ header > .header-bottom {
     line-height: inherit;
     font-style: normal;
 }
-/**/
-/*Header button block*/
 
 header > .header-bottom > .header-bg > #header_bg > .hero-button > .inbutton > .inbutton-space > .space-button{
     padding-left: auto;
@@ -142,7 +140,6 @@ header > .header-bottom >  .header-bg > #header_bg > .hero-button > .inbutton > 
 header > .header-bottom > .header-bg > #header_bg > .hero-button{
     margin-top: 50px;
 }
-/*Header button end*/
 
 @media (min-width: 770px) {
     header > .header-bottom > .header-bg > #header_bg{
@@ -169,7 +166,7 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
     }
 
     header > .header-bottom {
-        background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)),  no-repeat center/100% auto url(../img/header/header.jpg);
+        background: linear-gradient( rgba(44, 29, 46, 0.5),rgba(44, 29, 46, 0.5)), url(../img/header/header.jpg) no-repeat center/100% auto;
     }
 
     header > .header-bottom > .header-bg > #header_bg{
@@ -185,7 +182,7 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
         padding-bottom: 250px;
     }
 }
-
+/**/
 
 
 
@@ -210,8 +207,6 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
     padding-top: 85px;
     padding-bottom: 90px;
 }
-/**/
-/*Concept button*/
 
 .concept > .concept-block > .concept-button > .concept-button-block {
     align-items: center;
@@ -223,12 +218,11 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 .concept > .concept-block > .concept-button {
     margin-top: 50px;
 }
-/**/
 
 @media (min-width: 770px) {
     .concept > .concept-block {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-left: 100px;
+        padding-right: 100px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -242,10 +236,8 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
 
 @media (min-width: 990px) {
     .concept > .concept-block {
-        padding-left: 40px;
-        padding-right: 40px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     .concept {
@@ -264,6 +256,8 @@ header > .header-bottom > .header-bg > #header_bg > .hero-button{
         margin-right: auto;
     }
 }
+/**/
+
 
 
 /*!!!What Can You Do block*/
@@ -277,46 +271,45 @@ h3.h-can-do{
     margin: 0 0 0 0;
 }
 
-.wcyd > .wcyd-container > .container .col > .enjoy-sad{
-    background: no-repeat center /100% auto url(../img/what-you-can-do/coffee-break.webp);
+.wcyd > .wcyd-container > .container .wcyd-card > .enjoy-sad{
+    background: no-repeat center /auto 100% url(../img/what-you-can-do/coffee-break.png);
 }
 
-.wcyd > .wcyd-container > .container .col > .communicate{
-    background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.webp);
+.wcyd > .wcyd-container > .container .wcyd-card > .communicate{
+    background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.png);
 }
 
-.wcyd > .wcyd-container > .container .col > .work{
-    background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.webp);
+.wcyd > .wcyd-container > .container .wcyd-card > .work{
+    background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.png);
 }
 
-.wcyd > .wcyd-container > .container .col > .card{
-    padding-left: 27px;
-    padding-right: 27px;
-    padding-top: 39px;
-    padding-bottom: 39px;
-    border: 0px;
+.wcyd > .wcyd-container > .container .wcyd-card > .wcyd-body{
     background-color: #ffffff;
-    text-align: center;
-    border-radius:0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.wcyd > .wcyd-container > .container .col{
-    margin-top: 50px;
-    padding: 0 0 0 0;
-    
+.wcyd > .wcyd-container > .container .wcyd-card{
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .wcyd > .wcyd-container > .container > .row{
-    margin: 0 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .wcyd > .wcyd-container > .container{
     margin-top: 45px;
     padding: 0 0 0 0;
+    max-width: 1200px;
 }
 
 .wcyd > .wcyd-container > .wcyd-header{
-    align-items: center;
+    text-align: center;
 }
 
 .wcyd > .wcyd-container{
@@ -330,163 +323,99 @@ h3.h-can-do{
     padding-bottom: 90px;
     background-color: #fff4e9;
 }
-/**/
 
-@media (min-width: 770px) {
-    .wcyd > .wcyd-container > .container .col > .card > .card-body{
-        padding: 0 0 0 0;
-    }
-
-    .wcyd > .wcyd-container > .container .col > .card{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 46px;
-        padding-bottom: 46px;
-        border: 0px;
-        background-color: #ffffff;
-        text-align: center;
-        border-radius:0;
+@media (min-width: 500px) {
+    .wcyd > .wcyd-container > .container .wcyd-card > .enjoy-sad{
+        background: no-repeat center /100% auto url(../img/what-you-can-do/coffee-break.png);
     }
     
-    .wcyd > .wcyd-container > .container .col{
-        margin-top: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
-        
+    .wcyd > .wcyd-container > .container .wcyd-card > .communicate{
+        background: no-repeat center /100% auto url(../img/what-you-can-do/business-meeting.png);
     }
+    
+    .wcyd > .wcyd-container > .container .wcyd-card > .work{
+        background: no-repeat center /100% auto url(../img/what-you-can-do/working-table.png);
+    }
+}
+
+@media (min-width: 770px) {
+    .wcyd > .wcyd-container > .container .wcyd-card > .enjoy-sad{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/coffee-break.png);
+    }
+    
+    .wcyd > .wcyd-container > .container .wcyd-card > .communicate{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/business-meeting.png);
+    }
+    
+    .wcyd > .wcyd-container > .container .wcyd-card > .work{
+        background: no-repeat center /auto 100% url(../img/what-you-can-do/working-table.png);
+    }
+
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card > .wcyd-body{
+        min-height: 280px;
+    }
+
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card{
+        width: 40%;
+    }
+
     .wcyd > .wcyd-container > .container > .row{
-        margin-top: -30px;
-        margin-left: -15px;
-        margin-right: -15px;
         display: flex;
-    }
-
-    .wcyd > .wcyd-container > .container{
-        margin-top: 40px;
-        padding: 0 0 0 0;
-    }
-
-    .wcyd > .wcyd-container > .wcyd-header{
-        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .wcyd > .wcyd-container{
         padding-left: 32px;
         padding-right: 32px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .wcyd {
-        align-items: center;
         padding-top: 80px;
         padding-bottom: 90px;
-        background-color: #fff4e9;
     }
 }
 
 @media (min-width: 990px) {
-    .wcyd > .wcyd-container > .container .col > .card > .card-body{
-        padding: 0 0 0 0;
-    }
-
-    .wcyd > .wcyd-container > .container .col > .card{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 46px;
-        padding-bottom: 46px;
-        border: 0px;
-        background-color: #ffffff;
-        text-align: center;
-        border-radius:0;
-    }
-    
-    .wcyd > .wcyd-container > .container .col{
-        margin-top: 30px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    .wcyd > .wcyd-container > .container > .row{
-        padding: auto;
-      
-    }
-
-    .wcyd > .wcyd-container > .container{
-        padding: 0 0 0 0;
-    }
-
-    .wcyd > .wcyd-container > .wcyd-header{
-        text-align: center;
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card{
+        width: 30%;
     }
 
     .wcyd > .wcyd-container{
-        padding-left: 32px;
-        padding-right: 32px;
-        margin-left: auto;
-        margin-right: 0;
-        margin-top: auto;
-        margin-bottom: auto;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .wcyd {
-        align-items: center;;
-        padding-left: 32px;
-        padding-right: 32px;
-        background-color: #fff4e9;
+        padding-top: 90px;
+        padding-bottom: 100px;
     }
 }
 
-
 @media (min-width: 1200px) {
-    .wcyd > .wcyd-container > .container .col > .card > .card-body{
-        padding: 0 0 0 0;
-    }
-
-    .wcyd > .wcyd-container > .container .col > .card{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        border: 0px;
-        background-color: #ffffff;
-        text-align: center;
-        border-radius:0;
+    .wcyd > .wcyd-container > .container > .row > .wcyd-card{
+        padding-top: auto;
+        padding-bottom: auto;
     }
     
-    .wcyd > .wcyd-container > .container .col{
-        margin-top: 30px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    .wcyd > .wcyd-container > .container > .row{
-        margin-top: -30px;
-        margin-left: -15px;
-        margin-right: -15px;
-    }
-
     .wcyd > .wcyd-container > .container{
-       
-        padding: 0 0 0 0;
-    }
-
-    .wcyd > .wcyd-container > .wcyd-header{
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .wcyd > .wcyd-container{
         padding-left: 15px;
         padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .wcyd {
         align-items: center;
-        padding-top: 80px;
+        padding-top: 90px;
         padding-bottom: 100px;
-        background-color: #fff4e9;
+        
     }
 }
+/**/
 
 
 
@@ -574,10 +503,11 @@ h3.h-can-do{
 }
 
 @media (min-width: 770px) {
+    
 }
 
 @media (min-width: 990px) {
-    
+
 }
 
 @media (min-width: 1280px) {
@@ -588,13 +518,15 @@ h3.h-can-do{
 }
 /**/
 
+
+
 /*Our rooms block*/
-p.p-rooms  {
+p.p-rooms{
     color:#1b0914;
     margin: 0 0 0 0;
 }
 
-span {
+span{
     color:#1b0914;
     font-weight: bold;
     margin: 0 0 0 0;
@@ -610,24 +542,24 @@ a.a-rooms{
     margin: 0 0 0 0;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .damn-image > .rooms{
-    max-width: 100%;
-    max-height: 100%;
-    align-items: center;
-    
+.our-rooms > .rooms-container > .containery .col > .card > .damn-image > .rooms{
+    width: 100%;
+    height: 100%;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .damn-image{
+.our-rooms > .rooms-container > .containery .col > .card > .damn-image{
     align-items: center;
+    max-width: auto;
+    max-height: 380px;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body > h3{
+.our-rooms > .rooms-container > .containery .col > .card > .card-body > h3{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body > p{
+.our-rooms > .rooms-container > .containery .col > .card > .card-body > p{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     margin-top: 20px;
@@ -635,13 +567,13 @@ a.a-rooms{
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card > .card-body {
+.our-rooms > .rooms-container > .containery .col > .card > .card-body {
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: left;
 }
 
-.our-rooms > .rooms-container > .container .col > .card{
+.our-rooms > .rooms-container > .containery .col > .card{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
@@ -650,31 +582,34 @@ a.a-rooms{
     background-color: #ffffff;
     text-align: center;
     border-radius:0;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.our-rooms > .rooms-container > .container .col{
+.our-rooms > .rooms-container > .containery .col{
     margin-top: 30px;
     padding: 0 0 0 0;
     line-height: 100%;
     padding: 10px;
 }
 
-.our-rooms > .rooms-container > .container > .row{
-    margin: 0 0 0 0;
-    width: 100%;
-    display: flex;
-    align-items: stretch;
+.our-rooms > .rooms-container > .containery > .row{
+    display: grid;
 }
 
-.our-rooms > .rooms-container > .container{
+.our-rooms > .rooms-container > .containery{
     margin-top: 45px;
     padding: 0 0 0 0;
-    
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .our-rooms > .rooms-container{
     padding-left: 24px;
     padding-right: 24px;
+    align-items: center;
 }
 
 .our-rooms {
@@ -682,6 +617,54 @@ a.a-rooms{
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #fff4e9;
+}
+
+@media (min-width:770px) {
+    
+    .our-rooms > .rooms-container > .containery .col > .card > .damn-image > .rooms{
+        height: 100%;
+        width: auto;
+    }
+
+    .our-rooms > .rooms-container > .containery .col > .card > .card-body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .our-rooms > .rooms-container > .containery > .row > .col > .card > .part-1{
+        grid-column: 1 ;
+        grid-row: 1;
+    }
+
+    .our-rooms > .rooms-container > .containery > .row > .col > .card > .part-2{
+        grid-column: 2 ;
+        grid-row: 1;
+    }
+
+
+    .our-rooms > .rooms-container > .containery .col > .card{
+        min-height: 450px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .our-rooms > .rooms-container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .our-rooms {
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 95px;
+    }
+}
+
+@media (min-width:990px) {
+    .our-rooms > .rooms-container > .containery .col > .card > .damn-image > .rooms{
+        height: 100%;
+        width: auto;
+    }
 }
 /**/
 
@@ -721,6 +704,11 @@ a.a-rooms{
 }
 
 @media (min-width: 770px) {
+    .membership > .member-container > .member-block{
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
     .membership > .member-container{
         padding-left: 32px;
         padding-right: 32px;
@@ -743,10 +731,6 @@ a.a-rooms{
 }
 
 @media (min-width: 1280px) {
-    .membership > .member-container > .member-block{
-        margin-left: auto;
-        margin-right: auto;
-    } 
 
     .membership > .member-container{
         padding-left: 15px;
@@ -761,68 +745,65 @@ a.a-rooms{
 .prising .inv-button{
     color:#fff;
 }
+
 .pricing .card p{
     color:#fff4e9;
 }
+
 .pricing .card h3{
     color:#fff;
 }
+
 .pricing .card h2{
     color:#fff;
 }
 
-.pricing > .pricing-container > .container .col > .card > .pricing-img > img{
+.pricing > .pricing-container > .container .cal > .card > .pricing-img > img{
     width: 100%;
 }
 
-.pricing > .pricing-container > .container .col > .card > .pricing-img{
+.pricing > .pricing-container > .container .cal > .card > .pricing-img{
     margin-top: 15px;
     width: 70px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.pricing > .pricing-container > .container .col > .card > h2{
+.pricing > .pricing-container > .container .cal > .card > h2{
     margin-top: 20px;
 }
 
-.pricing > .pricing-container > .container .col > .card > small{
+.pricing > .pricing-container > .container .cal > .card > small{
     margin-top: 2px;
 }
 
-.pricing > .pricing-container > .container .col > .card > p{
+.pricing > .pricing-container > .container .cal > .card > p{
     margin-top: 15px;
 }
 
-.pricing > .pricing-container > .container .col > .card > span{
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+.pricing > .pricing-container > .container .cal > .card > button > a{
+    color: #fff;
 }
 
-.pricing > .pricing-container > .container .col > .card > span{
-    width: 100%;
-}
-
-.pricing > .pricing-container > .container .col > .card{
+.pricing > .pricing-container > .container .cal > .card{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 70px;
-    padding-bottom: 70px;
     border: 0px;
     background-color: rgb(27, 9, 20);
     text-align: center;
     border-radius:0;
+    align-items: center;
+    min-height: 550px;
 }
 
-.pricing > .pricing-container > .container .col{
+.pricing > .pricing-container > .container .cal{
     margin-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .pricing > .pricing-container > .container > .row{
-    margin: 0 0 0 0;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -830,6 +811,7 @@ a.a-rooms{
 .pricing > .pricing-container > .container{
     margin-top: 45px;
     padding: 0 0 0 0;
+    max-width: 1200px;
 }
 
 .pricing > .pricing-container{
@@ -844,11 +826,31 @@ a.a-rooms{
     background-color: #ffffff;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 770px) {
+    .pricing > .pricing-container > .container > .row > .cal > .card{
+        min-height: 640px;
+    }
+
+    .pricing > .pricing-container > .container > .row > .cal{
+        width: 40%;
+    }
+
     .pricing > .pricing-container > .container > .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(500px, auto);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 990px) {
+    .pricing > .pricing-container > .container > .row > .cal{
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pricing > .pricing-container > .container > .row > .cal > .card{
+        min-height: 550px;
     }
 }
 /**/
@@ -880,33 +882,35 @@ a.a-rooms{
     padding: 0 0 0 0;
     margin-top: 20px;
     text-align: center;
-    
 }
 
 .events > .events-container > .container > .row > .col > .card{
     padding-left: 27px;
     padding-right: 27px;
     padding-top: 30px;
-    padding-bottom: 30px;
     border: 0px;
     background-color: #ffffff;
     text-align: center;
     border-radius:0;
+    align-items: center;
+    min-height: 720px;
 }
 
 .events > .events-container > .container > .row > .col{
     margin-top: 30px;
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .events > .events-container > .container > .row{
-    margin: 0 0 0 0;
     display: grid;
+    grid-template-columns: 1fr;
 }
 
 .events > .events-container .container{
     margin-top: 45px;
     padding: 0 0 0 0;
+    max-width: 1200px;
 }
 
 .events > .events-container{
@@ -931,16 +935,30 @@ a.a-rooms{
 
 
 /*Partners block*/
-.partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner{
-    max-height: fit-content;
+.partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner > .carousel-item > .part-item > .part-img{
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner > .carousel-item > .part-item{
+    align-items: center;
+}
+
+.partners > .partners-block > .partners-container > #partners-carousel > .carousel-inner > .carousel-item{
+    max-height: 260px;
 }
 
 .partners > .partners-block > .partners-container > #partners-carousel{
-    margin-top: 45px;
+    margin-top: 45px; 
 }
 
 .partners > .partners-block > .partners-container {
- max-width: 1170px;
+    max-width: 1200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .partners > .partners-block{
@@ -961,15 +979,44 @@ a.a-rooms{
 
 /*Testimonials block*/
 
+.testi > .testi-container > .carousel .carousel-item > .testi-img > .testimg {
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+}
 
+.testi > .testi-container > .carousel .carousel-item > .testi-img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.testi > .testi-container > .testi-text {
-    height: 37px;
-    width: 272px;
+.testi > .testi-container > .carousel .carousel-item {
+    min-height: 300px;
     text-align: center;
 }
 
-.testi > .testi-container{
+.testi > .testi-container > .carousel > .carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    max-width: 770px;
+}
+
+.testi > .testi-container  > .carousel  {
+    margin-top: 45px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testi > .testi-container > .testi-text  {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.testi > .testi-container {
     align-items: center;
     padding-left: 24px;
     padding-right: 24px;
@@ -1047,10 +1094,30 @@ a.a-rooms{
     align-items: center;
 }
 
+.location > .location-container > .loc-parts> .loc-grid > .map > a{
+    color:red;
+}
+
+.location > .location-container > .loc-parts> .loc-grid > .map{
+    font-size: 20px;
+    animation: blink 1s infinite;
+    text-align: center;
+}
+
 .location > .location-container > .loc-parts> .loc-grid > .loc-grid> .map{
     height: 1px;
     min-height: 320px;
 }
+
+@keyframes blink {
+    from { 
+        opacity: 1;
+    }
+    to { 
+        opacity: 0.5;  
+    }
+}
+
 .location > .location-container{
     padding-left: 24px;
     padding-right: 24px;
@@ -1096,7 +1163,9 @@ a.a-rooms{
 }
 /**/
 
-/*Testimonials block*/
+
+
+/*Form block*/
 
 .form > .form-container > .form-block > .form-to-fill > button{
     margin-top: 50px;
@@ -1141,6 +1210,11 @@ a.a-rooms{
 
 @media (min-width: 770px) {
     .form > .form-container > .form-block{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form > .form-container > .form-block{
         padding: 45px 60px;
     }
     .form > .form-container{
@@ -1152,6 +1226,7 @@ a.a-rooms{
         padding-bottom: 100px;
     }
 }
+
 @media (min-width: 990px) {
     .form > .form-container > .form-block{
         padding: 60px 85px;
@@ -1159,14 +1234,11 @@ a.a-rooms{
     .form > .form-container{
         padding-left: 40px;
         padding-right: 40px;
+        
     }
-}
-
+}   
+                   
 @media (min-width: 1280px) {
-    .form > .form-container > .form-block{
-        margin-left: auto;
-        margin-right: auto;
-    }
     .form > .form-container{
         padding-left: 15px;
         padding-right: 15px;
@@ -1184,7 +1256,7 @@ a.a-rooms{
         grid-template-columns: repeat(5,1fr);
     }
     .footer-list {
-        margin: 0px;
+        margin-top: 0px;
     }
     .footer-list a{
         text-align: left;
